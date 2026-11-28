@@ -11,7 +11,7 @@ description: >
   "analisa os anúncios de [marca]", "olha o que a concorrência está fazendo na Meta", "que anúncios
   X tem", "biblioteca de anúncios de", "ads library de", "que criativos ela usa", "como são os
   anúncios do meu concorrente", ou colar uma URL de facebook.com/ads/library. Também se perguntar
-  "isso é feito com IA?" sobre anúncios de outra marca. NÃO é pra analisar o DESEMPENHO dos
+  "isso é feito com IA?" sobre anúncios de outra marca. NãO é pra analisar o DESEMPENHO dos
   anúncios próprios de quem usa a skill (pra isso precisa ler os dados exportados do Gerenciador de
   Anúncios) nem pra editar vídeo.
 ---
@@ -127,11 +127,11 @@ transcripts com um loop de bash. Escreva o relatório em
 2. **Como iteram**: o que congelam e o que variam entre versões.
 3. **Ritmo, medido**: tabela de duração / cortes / corte médio / ppm.
 4. **Banco de hooks**: transcrição **literal** dos primeiros segundos de todos, agrupados por
-   mecanismo. É o mais valioso do relatório.
+   mecanismo. é o mais valioso do relatório.
 5. **A fórmula do vencedor, minutada**: tabela t/o que acontece/função persuasiva, e o esqueleto
    abstraído em N movimentos.
 6. **Incoerências que estão pagando.**
-7. **O que é transplantável, o que com cuidado, e o que NÃO**: o último bloco é obrigatório:
+7. **O que é transplantável, o que com cuidado, e o que NãO**: o último bloco é obrigatório:
    marque explicitamente o que bate com os valores da marca (inflar números, garantias falsas,
    fumaça). Copia-se a estrutura, nunca a mentira.
 
@@ -152,7 +152,7 @@ Zero. Sem API paga, sem login, sem scraper de terceiros. Só o Whisper da Groq, 
 dia precisar escalar pra dezenas de contas, as alternativas são serviços de scraping pagos, mas
 pra uma conta não precisa.
 
-## O que esta skill NÃO faz
+## O que esta skill NãO faz
 Não mede desempenho real (ninguém consegue de fora), não baixa anúncios inativos por padrão, não
 gera os anúncios novos.
 
@@ -164,4 +164,4 @@ masteriza pra Meta.
 
 Uma nuance:
 - Se o bruto é **gravado pelo apresentador com câmera** em vez de gerado com IA, a montagem é
-  `reel-edita-inema`, não `/anuncio-edita`.
+  `reel-edita-arckhe`, não `/anuncio-edita`.

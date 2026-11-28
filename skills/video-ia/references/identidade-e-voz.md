@@ -10,7 +10,7 @@ supõe.**
 |---|---|---|---|
 | **A · Personagem inventado** | Atores gerados que não existem | O modelo gera | 🟡 Média |
 | **B · Cara real com referências** | Uma pessoa real, com as três imagens de referência | O modelo gera, com amostra de timbre ou sem | 🔴 Alta |
-| **C · Foto + áudio animados** | Uma foto fixa de uma pessoa real, animada | **O áudio que você sobe.** Esse áudio É a pista | 🟢 Baixa |
+| **C · Foto + áudio animados** | Uma foto fixa de uma pessoa real, animada | **O áudio que você sobe.** Esse áudio é a pista | 🟢 Baixa |
 | **D · Voz off** | Quem você decidir, ou ninguém | Uma voz gravada ou clonada, em cima de imagem gerada | 🟢 A mais baixa |
 | **E · Gravar e transformar** | **A pessoa de verdade**, gravada com o celular, dentro de uma cena gerada | **A própria voz dela, gravada.** Não há lip-sync gerado | 🟢 Baixa |
 
@@ -117,16 +117,16 @@ Confundir as duas manda produzir a amostra errada. **Confirmar a plataforma ante
 | | O que é o áudio que você sobe | Onde vai o diálogo |
 |---|---|---|
 | **B1 · timbre** (Seedance «Real Human» e similares) | **Referência de timbre.** O conteúdo dele **não soa** no vídeo | Escrito no prompt |
-| **B2 · pista** (OmniHuman, Dreamina e similares) | **A pista de voz definitiva.** É o que soa, e o lip-sync se faz sobre ela | No áudio, não no prompt |
+| **B2 · pista** (OmniHuman, Dreamina e similares) | **A pista de voz definitiva.** é o que soa, e o lip-sync se faz sobre ela | No áudio, não no prompt |
 
 Todo o bloco `[Voice Reference]` acima é **de B1**. Em B2 não se escreve: sobe-se a voz já locutada.
 
 ### Se ele grava a locução inteira · o que melhor funciona
 
-É a via que melhor tem funcionado: entender primeiro a emoção do roteiro, gravar, e dar ao modelo
+é a via que melhor tem funcionado: entender primeiro a emoção do roteiro, gravar, e dar ao modelo
 essa gravação e esse roteiro. Regras:
 
-1. **O que gravou É o roteiro.** Ao gravar mudam-se frases; o `Dialogue` do prompt se copia do que
+1. **O que gravou é o roteiro.** Ao gravar mudam-se frases; o `Dialogue` do prompt se copia do que
    ele disse, não do roteiro escrito.
 2. **A peça dura o que a locução dura.** Não se preenche: o preenchimento é tempo morto pago.
 3. **Se tiver que partir em trechos de ≤30 s, o áudio se corta só onde a voz dele cala**, e cada
@@ -155,25 +155,25 @@ Consequências pro prompt:
 - **O diálogo não vai no prompt.** Vai no áudio. O texto só dirige **gesto, olhar e câmera**.
 - **A foto fixa o fundo, o figurino e o enquadramento.** Não dá pra pedir mudança de cenário: se
   precisa de outro fundo, é outra foto.
-- É **talking-head**. Não se pedem metáforas, nem escala, nem multi-plano.
+- é **talking-head**. Não se pedem metáforas, nem escala, nem multi-plano.
 - ⚠️ Os catálogos de voz dessas ferramentas **costumam ter português do Brasil**, mas com poucas
-  vozes e todas reconhecíveis. Conte com subir áudio próprio, gravado ou clonado (inemavox).
+  vozes e todas reconhecíveis. Conte com subir áudio próprio, gravado ou clonado (arckhevox).
 
 **Quando é a melhor via:** uma mensagem direta a câmera, com a cara real de alguém, quando o
-roteiro importa mais que a imagem. É a mais barata de acertar e a que menos surpreende.
+roteiro importa mais que a imagem. é a mais barata de acertar e a que menos surpreende.
 
 ## VIA D · Voz off
 
 **Não significa «não aparece ninguém»: significa quem narra.** Pode se combinar com as demais; de
-fato é a combinação que melhor tem funcionado: **narração em voz off sobre imagem de cinema, e a
+fato é a combinação que melhor tem funcionado: **narração em voz off sobre imagem de carckhe, e a
 cara real aparecendo no arremate.**
 
 Ninguém mexe a boca *nas falas da voz off*.
 
-**É a via mais segura do catálogo e a mais subestimada.** Ao eliminar o lip-sync desaparece de
+**é a via mais segura do catálogo e a mais subestimada.** Ao eliminar o lip-sync desaparece de
 uma vez a falha número um do vídeo gerado, e toda a qualidade do modelo vai pra imagem.
 
-**É a via da Agnes.** A Agnes gera clipes mudos por keyframes; a voz vem do inemavox (TTS com voz
+**é a via da Agnes.** A Agnes gera clipes mudos por keyframes; a voz vem do arckhevox (TTS com voz
 clonada) ou gravada, e se monta em cima no `/anuncio-edita`.
 
 - Zero diálogo falado no quadro. O texto do prompt dirige gesto, olhar e câmera.
@@ -181,10 +181,10 @@ clonada) ou gravada, e se monta em cima no `/anuncio-edita`.
 - A voz sai do bloco de timbre, ou se grava/sintetiza e se monta em cima.
 - **Se o usuário grava e se monta depois** (a via que melhor tem funcionado): o vídeo se gera
   **sem diálogo** (só ambiente e efeitos, e assim se diz no bloco [AUDIO]), o roteiro vai no bloco
-  2 do arquivo pra ele ler, e o orçamento de palavras é o de **voz off de cinema (126-160 ppm)**.
+  2 do arquivo pra ele ler, e o orçamento de palavras é o de **voz off de carckhe (126-160 ppm)**.
 - 🟢 **Combinável:** pode aparecer uma cara real no quadro sem falar. Declara-se **em que plano
   aparece e se olha pra lente**, porque esse olhar costuma ser o arremate do vídeo.
-- **É a via natural** do cinema, da metáfora, do POV, do ASMR, da demonstração, do produto herói e
+- **é a via natural** do carckhe, da metáfora, do POV, do ASMR, da demonstração, do produto herói e
   do detalhe artesanal.
 
 ⚠️ Se o roteiro **precisa** que se veja alguém dizendo a câmera (depoimento, confessional), a voz
@@ -200,7 +200,7 @@ vende o negócio é que ensina uma pessoa concreta, o anúncio não pode ser con
 
 | | |
 |---|---|
-| **O que ganha** | É a pessoa de verdade, e **desaparece o lip-sync gerado**, que é a falha nº 1: a boca é a dela, gravada |
+| **O que ganha** | é a pessoa de verdade, e **desaparece o lip-sync gerado**, que é a falha nº 1: a boca é a dela, gravada |
 | **O que custa** | Quinze segundos e um celular |
 | **O que não pode** | Dar gestos que não fez, movê-la pelo plano, nem alongar o clipe. A coreografia é a que se gravou |
 
@@ -217,7 +217,7 @@ vende o negócio é que ensina uma pessoa concreta, o anúncio não pode ser con
 | Uma pessoa concreta num plano impossível: escala, clones, VFX | **B** |
 | Uma pessoa concreta da equipe falando a câmera e ponto | **C** |
 | 🟢 **Uma pessoa concreta da equipe, com a voz DELA, numa cena que não existe** | **E** |
-| Cinema, metáfora, escala, POV, ASMR, objeto, mascote | **D**, e a cara real no arremate |
+| Carckhe, metáfora, escala, POV, ASMR, objeto, mascote | **D**, e a cara real no arremate |
 | Demonstração de produto | **D** |
 | Máxima qualidade de imagem com o mínimo risco | **D** ou **E** |
 | Custo zero, na Agnes | **D** (única via que a Agnes suporta) |

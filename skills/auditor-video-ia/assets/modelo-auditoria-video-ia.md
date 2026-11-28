@@ -41,11 +41,11 @@
 - FPS:
 - Bitrate:
 - Codec:
-- Áudio:
+- áudio:
 
 ## Postflight técnico
 
-| Área | Estado | Faixa/frame | Evidência |
+| área | Estado | Faixa/frame | Evidência |
 |---|---|---|---|
 | Identidade | | | |
 | Mãos e anatomia | | | |
@@ -54,7 +54,7 @@
 | Produto e texto | | | |
 | Continuidade e física | | | |
 | Câmera e luz | | | |
-| Áudio e sotaque | | | |
+| áudio e sotaque | | | |
 
 ## Postflight comercial
 

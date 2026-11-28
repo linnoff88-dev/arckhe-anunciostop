@@ -18,6 +18,6 @@ Base: `fonte/director-ia-skills/skills/` e `fonte/director-ia-index.html`.
 - Anedotas datadas da conta de origem (tanda de 8 anuncios 21-ago, concepto 03 22-ago, etc.).
 - Números de conta alheia (CPA €, $38 vs $106, ~15 planos verificados em Higgsfield) → "valor de referência a validar".
 - Sotaque castelhano → PT-BR.
-- Menções a `/reel-edita` externo → `reel-edita-inema`.
+- Menções a `/reel-edita` externo → `reel-edita-arckhe`.
 - Caminhos Mac (`/Applications/Google Chrome.app`, HelveticaNeue.ttc, brew).
 - Script `check-dreamina-prompt.py` citado mas ausente.

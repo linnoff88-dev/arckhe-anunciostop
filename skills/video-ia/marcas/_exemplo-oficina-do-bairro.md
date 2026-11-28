@@ -21,7 +21,7 @@ parar a produção pra implantar algo que depois se abandona.
 ## A oferta, com a redação exata
 > *«A primeira auditoria é de graça e você leva o mapa do processo, implante com a gente ou não.»*
 
-**O que NÃO se diz ao mencioná-la:** que tem que assinar alguma coisa, que tem vagas limitadas,
+**O que NãO se diz ao mencioná-la:** que tem que assinar alguma coisa, que tem vagas limitadas,
 nem o preço da implantação. Isso se fala na conversa.
 
 ## A prova disponível
@@ -53,7 +53,7 @@ dentro do plano**. Cor de acento das legendas: o laranja.
 | Quem | Via | O que já existe |
 |---|---|---|
 | O fundador | E (gravar e transformar) ou C | Ficha de apresentador + 12 min de material gravado |
-| Voz off | A própria voz dele, clonada no inemavox | Referência de 10 s limpa, medida a 158 ppm em leitura real |
+| Voz off | A própria voz dele, clonada no arckhevox | Referência de 10 s limpa, medida a 158 ppm em leitura real |
 | Clientes | Gravado na oficina deles | 3 depoimentos, com permissão escrita |
 
 ## Plataforma de geração padrão

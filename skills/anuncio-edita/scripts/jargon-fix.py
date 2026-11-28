@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Corrige o JARGÃO TÉCNICO que o Whisper transcreve errado (ex.: Claude->"Cloud")
+"""Corrige o JARGãO TéCNICO que o Whisper transcreve errado (ex.: Claude->"Cloud")
 num transcript word-level ou num captions.json, ANTES de gerar legendas.
 
 Por quê: o incidente das legendas "Cloud Code" em produção. O Whisper (Groq e

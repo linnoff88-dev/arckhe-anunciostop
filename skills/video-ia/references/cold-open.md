@@ -1,6 +1,6 @@
 # O cold open · os 3 primeiros segundos
 
-**É uma comporta: se o cold open não passa no teste abaixo, não se escreve o resto do roteiro.**
+**é uma comporta: se o cold open não passa no teste abaixo, não se escreve o resto do roteiro.**
 
 Todo o resto do vídeo compete pra ser bom. Os três primeiros segundos competem pra **existir**:
 se não fisgam, ninguém vê o mecanismo, nem a prova, nem o fechamento. Um cold open fraco com um
@@ -15,7 +15,7 @@ ainda converte.
 ## Contents
 
 - A doutrina
-- Onde vai a oferta · recomendação padrão, NÃO regra dura
+- Onde vai a oferta · recomendação padrão, NãO regra dura
 - O padrão dos que funcionam · medido frame a frame
 - Os seis mecanismos
 - O teste dos 3 segundos · comporta
@@ -34,7 +34,7 @@ ainda converte.
 - **Tem que se ler no mudo.** A maioria vai ver sem som: o evento se entende só com a imagem. As
   legendas ajudam, mas o arranque não pode depender delas.
 
-## Onde vai a oferta · recomendação padrão, NÃO regra dura
+## Onde vai a oferta · recomendação padrão, NãO regra dura
 
 **Padrão:** a oferta vai na primeira frase, enquanto o evento visual entra pelos olhos. **Um entra
 pela vista e o outro pelo ouvido, e não competem.** Contas que mediram isso viram diferença grande
@@ -46,7 +46,7 @@ em custo por aquisição a favor da oferta na frente; trate como valor de refer�
 | **Quando o gancho já chama atenção sozinho** | Pode ir pro fechamento. **Quem decide é quem pede o vídeo**, não a skill |
 | **O que a skill faz** | Propor a posição com a razão em uma linha, e aplicar o que disserem. Na dúvida, na frente |
 
-⚠️ **O que NÃO muda:** que a oferta **exista**. Um vídeo sem oferta em lugar nenhum continua
+⚠️ **O que NãO muda:** que a oferta **exista**. Um vídeo sem oferta em lugar nenhum continua
 errado. O que se soltou foi **onde**, não **se**.
 
 → A redação exata da oferta vem da ficha de marca. **Não se improvisa nem se enfeita.** Se não há
@@ -65,7 +65,7 @@ Analisando lotes de anúncios de avatar frame a frame, os melhores fazem **a mes
 3. **Três ou quatro cortes nos primeiros quinze segundos**, e zero sinais de IA nesse trecho.
 
 🔴 **E isso não briga com a oferta na primeira frase.** Ao contrário: **o olho para no objeto e o
-ouvido para na oferta, ao mesmo tempo.** É o padrão a pedir por padrão.
+ouvido para na oferta, ao mesmo tempo.** é o padrão a pedir por padrão.
 
 ### As três falhas medidas
 
@@ -83,7 +83,7 @@ Isso **não** é arranque em preto: é um recurso de UGC (uma oclusão) e retém
 
 | Veto | Por quê |
 |---|---|
-| 🔴 **Duas cópias do mesmo personagem no quadro por acidente** | É o sinal de IA que mais grita: figuras de fundo que são clones do mesmo ator. Vai nos negativos base |
+| 🔴 **Duas cópias do mesmo personagem no quadro por acidente** | é o sinal de IA que mais grita: figuras de fundo que são clones do mesmo ator. Vai nos negativos base |
 | 🔴 **Fumaça ou névoa onde não se justifica** | O segundo sinal. Um palco ou um galpão aguentam; **um escritório, não** |
 
 **E a nuance que importa:** a multiplicidade **deliberada** (oito cópias da mesma pessoa como
@@ -104,10 +104,10 @@ orçamento pequeno, um anúncio que começa descartando gente sai caro.
 | # | Mecanismo | Como funciona | Modos onde vai bem |
 |---|---|---|---|
 | 1 | **Macro sem contexto** | Um detalhe enorme que não se entende até um segundo depois: um olho, um botão, uma gota. O espectador fica pra descobrir o que está olhando | Todos. O mais fácil de gerar bem |
-| 2 | **Som antes da voz** | Um clique, um golpe, um tilintar. O áudio entra ANTES da palavra e obriga a olhar | ASMR, objeto que fala, detalhe, cinema |
+| 2 | **Som antes da voz** | Um clique, um golpe, um tilintar. O áudio entra ANTES da palavra e obriga a olhar | ASMR, objeto que fala, detalhe, carckhe |
 | 3 | **Ação interrompida** | Alguém já está no meio de algo quando o vídeo começa. Nunca se vê nada começar: você cai dentro | UGC, mini-ficção, entrevista de rua |
 | 4 | **O erro do espectador, recriado** | Descreve-se ele fazendo papel de bobo, com detalhe vergonhosamente específico. Funciona porque ele se reconhece antes de se defender | UGC, confessional, absurdo |
-| 5 | **Escala impossível no quadro** | Algo cujo tamanho não bate e precisa ser resolvido olhando: dez cópias da mesma pessoa, uma parede infinita | Escala, cinema. É o que mais justifica gerar |
+| 5 | **Escala impossível no quadro** | Algo cujo tamanho não bate e precisa ser resolvido olhando: dez cópias da mesma pessoa, uma parede infinita | Escala, carckhe. é o que mais justifica gerar |
 | 6 | **Pergunta que só pode acontecer com ele** | Filtro por jargão ou por tarefa exata. Quem não é o público vai embora, e quem é fica fisgado | Público técnico ou muito definido |
 
 **As duas combinações que melhor funcionam:** 1+2 (macro com som) e 3+4 (a ação interrompida
@@ -140,7 +140,7 @@ está errado. Tem que haver **algo que você ainda não entende e quer entender*
 2. **Abrir com uma cara falando** sem mais nada acontecendo.
 3. **Cartão de texto mudo ou fade de entrada.**
 4. **Um plano bonito sem pergunta dentro.** Um drone sobre uma cidade não é cold open: é papel de
-   parede. É o erro nº 1 do vídeo gerado, porque o modelo faz lindo e de graça.
+   parede. é o erro nº 1 do vídeo gerado, porque o modelo faz lindo e de graça.
 5. **Não haver oferta em nenhuma parte do vídeo.** Ir no fim é decisão legítima de quem pede o
    vídeo (ver acima); não aparecer nunca, não.
 

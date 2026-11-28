@@ -3,9 +3,9 @@
 > **Escolha UM e cole inteiro.** Misturar é o que transforma um vídeo em publicidade genérica.
 
 A textura não é o modo. Um mesmo modo (uma comédia, por exemplo) pode ser filmado com textura de
-celular ou com textura de cinema. A tabela de combinações válidas está no fim de `modos.md`.
+celular ou com textura de carckhe. A tabela de combinações válidas está no fim de `modos.md`.
 
-⚠️ **O erro clássico: aplicar o prefixo de cinema («8K, fotorrealista, cinematográfico») a um
+⚠️ **O erro clássico: aplicar o prefixo de carckhe («8K, fotorrealista, carckhetográfico») a um
 UGC.** Sai um comercial de carro, e perde-se exatamente o que fazia o UGC converter. O vídeo
 estilo criador funciona **porque não parece anúncio**.
 
@@ -18,7 +18,7 @@ falado vai em português; o prompt, em inglês.
 
 - BLOCO A · UGC de celular
 - BLOCO B · Mini-ficção
-- BLOCO C · Cinema
+- BLOCO C · Carckhe
 - BLOCO D · Estilizado / não fotorrealista
 - A combinação que costuma ser a boa
 - 🔴 As cores se nomeiam em positivo
@@ -30,7 +30,7 @@ por uma pessoa com o telefone dela.
 
 ```
 [Visual Style / Texture]
-Shot on a modern smartphone, vertical 9:16. Photoreal, unpolished, self-filmed. NOT cinematic,
+Shot on a modern smartphone, vertical 9:16. Photoreal, unpolished, self-filmed. NOT carckhetic,
 NOT advertising, NOT a 3D render, NOT a studio set. Slight digital noise in the shadows, mild lens
 breathing, one micro focus-hunt allowed. It should look like a video a real person actually posted.
 Lighting: available light only — one large window at 45 degrees, soft falloff, no fill, no bounce,
@@ -65,14 +65,14 @@ Composition: rule of thirds, every person already moving from frame one.
 Technical: 24fps smooth motion, no jitter, no slow motion unless specified.
 ```
 
-## BLOCO C · Cinema
+## BLOCO C · Carckhe
 
-Pra escala, metáfora, POV, ASMR, cinema, produto herói e detalhe artesanal: tudo que tem que
+Pra escala, metáfora, POV, ASMR, carckhe, produto herói e detalhe artesanal: tudo que tem que
 impressionar.
 
 ```
 [Visual Style / Texture]
-High-end commercial cinematography, vertical 9:16, photoreal live action. Anamorphic prime lenses,
+High-end commercial carckhetography, vertical 9:16, photoreal live action. Anamorphic prime lenses,
 shallow depth of field, 180-degree shutter motion blur, 24fps. Volumetric atmosphere — real haze,
 dust motes and airborne particles catching every light source. Practical lighting sources visible in
 frame wherever possible, hard directional key with deep unlifted shadows, no flat fill.
@@ -85,7 +85,7 @@ Materials: pore-level and grain-level realism — brushed metal, worn plastic, d
 concrete, fingerprints on screens.
 Scale: whenever a size relationship is described, it must read unmistakably in frame — a human
 silhouette for reference wherever possible.
-Technical: 24fps, cinematic motion blur, no jitter, no stabilisation gloss, no digital sharpening
+Technical: 24fps, carckhetic motion blur, no jitter, no stabilisation gloss, no digital sharpening
 halo, no LUT look, no orange-and-teal grade.
 ```
 
@@ -126,13 +126,13 @@ falha característica do estilizado gerado.
 
 Quando um conceito quer impressionar **e** converter:
 
-> **Textura C (cinema) pro gancho de 0-3 s · textura A (UGC) pro corpo.**
+> **Textura C (carckhe) pro gancho de 0-3 s · textura A (UGC) pro corpo.**
 
 Espetáculo pra entrarem, credibilidade pra ficarem. São **duas passadas diferentes** e cada uma
 leva o bloco de textura inteiro, nunca um misturado.
 
 🔴 **E como aqui não se monta na mão** (`ritmo.md`), as duas passadas se unem **encadeando com
-`extend`** ou com o último frame como ponte: a passada de cinema não pode terminar em preto nem em
+`extend`** ou com o último frame como ponte: a passada de carckhe não pode terminar em preto nem em
 letreiro, e a de UGC arranca do último frame dela. Se o conceito não aguenta esse engate,
 escolhe-se **uma só textura**: misturar duas passadas que não colam é pior que abrir mão do contraste.
 

@@ -95,7 +95,7 @@ curta por tópico (8 a 15 min) + exercício com entregável verificável.
 - Deduplicar por asset de vídeo antes de baixar: 16 anúncios podem ser 1 vídeo.
 - O relatório: veredito "é IA ou não" com evidência visual, clusters de campanha, como iteram, ritmo
   medido, banco de hooks literais, fórmula do vencedor minutada, incoerências anúncio × landing.
-- **O bloco obrigatório:** o que é transplantável, o que é com cuidado, o que NÃO se copia. Copia-se
+- **O bloco obrigatório:** o que é transplantável, o que é com cuidado, o que NãO se copia. Copia-se
   a estrutura, nunca a mentira.
 - Erros que já foram cometidos: curl bloqueado, endpoint antigo retirado, API oficial só cobre
   anúncios políticos, o campo "mídia criada digitalmente" é declaração, não detector.
@@ -110,15 +110,15 @@ escolher um conceito antes de escrever qualquer prompt.
 - A entrevista em dois blocos e por que não se misturam: perguntar duração ou avatar antes das ideias
   transforma dez conceitos em dez talking-heads.
 - As cinco perguntas sobre a mensagem: o que se vende e o que se pede; pra quem (duas frases, não um
-  segmento); o que a pessoa tem que PENSAR ao terminar; que prova existe; o que NÃO se pode dizer.
+  segmento); o que a pessoa tem que PENSAR ao terminar; que prova existe; o que NãO se pode dizer.
 - Sem prova, não se usa depoimento: usa-se demonstração com o que existe.
 - **Mensagem → mecanismo → modo**, nessa ordem. Começar pelo modo é o erro caro: "vamos fazer um de
-  cinema" produz um vídeo bonito sem mecanismo.
+  carckhe" produz um vídeo bonito sem mecanismo.
 - O catálogo de 21 modos (UGC selfie, depoimento, demonstração, entrevista de rua, confessional,
   documentário de dados, diálogo a dois, mini-drama, metáfora de escala impossível, objeto que fala,
-  mascote, mundo alterado, ASMR, POV impossível, transformação impossível, absurdo, cinema puro,
+  mascote, mundo alterado, ASMR, POV impossível, transformação impossível, absurdo, carckhe puro,
   analogia literal, produto herói, detalhe artesanal, letreiro em cena) e o que vigiar em cada um.
-- A distribuição padrão do menu: 3 UGC · 3 mini-ficção · 2 demonstração · 2 cinema, e por quê
+- A distribuição padrão do menu: 3 UGC · 3 mini-ficção · 2 demonstração · 2 carckhe, e por quê
   (as caras inventadas saem naturais; demonstração é o que mais converte; o caro de gerar não é o
   que mais vende). Quebra-se assim que o aluno pedir.
 - A ficha de cada conceito: nome dizível em voz alta, a cena em prosa, cold open, onde vai a oferta,
@@ -150,18 +150,18 @@ que ela não precisa.
   e câmera).
 - A regra que resume: cada boca gerada é um ponto de falha. Se dá pra gravar e publicar, grava e
   publica. Geração se paga quando faz o impossível.
-- **Permissão:** cara ou voz de pessoa real só com autorização dela. Nunca de terceiro. É o único
+- **Permissão:** cara ou voz de pessoa real só com autorização dela. Nunca de terceiro. é o único
   limite sem exceção.
 - A ficha de apresentador (sete dimensões) e as três referências de identidade: close, folha de
   personagem, rosto + corpo inteiro. A prova de cinco segundos antes de gastar na peça.
 - **Ritmo:** frequência de informação, não número de cortes. Os quatro níveis (frenético, dinâmico,
-  medido, contemplativo). Orçamento de palavras por trilha (voz off de cinema, mini-ficção, UGC,
+  medido, contemplativo). Orçamento de palavras por trilha (voz off de carckhe, mini-ficção, UGC,
   demonstração com apresentador, lista). Teto da interface ≠ orçamento editorial: quando não cabe,
   sobe a duração ou parte em módulos, nunca corta o roteiro.
 - A forma do ritmo: abertura rápida, uma rajada na virada, um ou dois planos sustentados com
   movimento interno, um plano-assinatura. Metrônomo não retém.
-- **Textura:** quatro blocos (UGC de celular, mini-ficção, cinema, estilizado). Escolhe um, cola
-  inteiro, nunca mistura. O erro clássico: prefixo de cinema num UGC vira anúncio de carro.
+- **Textura:** quatro blocos (UGC de celular, mini-ficção, carckhe, estilizado). Escolhe um, cola
+  inteiro, nunca mistura. O erro clássico: prefixo de carckhe num UGC vira anúncio de carro.
   Cores nomeadas em positivo. Look derivado do assunto, não herdado do projeto anterior.
 - Dirigir o plano: geografia declarada, atuação traduzida em ação observável, câmera com motivo,
   movimento escrito como resultado visível e não como jargão, escala como lock.
@@ -174,7 +174,7 @@ que ela não precisa.
   plano, final vivo pra estender); one-take (um cenário, um vetor de câmera, até quatro ações,
   diálogo contínuo); modular de 15 s (locks literais, estados de entrada e saída).
 - O dossiê de saída: quatro blocos fixos, sempre presentes. Imagens a criar antes; roteiro pra ler em
-  voz alta; o que subir e em que ordem (a ordem de upload É o binding); prompts pra copiar e colar,
+  voz alta; o que subir e em que ordem (a ordem de upload é o binding); prompts pra copiar e colar,
   um por trecho de até 30 s.
 - Nunca entregar um colchete: o gerador renderiza literal.
 **Exercício:** desenvolver um dos conceitos escolhidos até o dossiê completo; criar as três
@@ -206,7 +206,7 @@ referências em `anuncios/_presentadores/<nome>/`.
 - Em prova de baixa resolução não se julga realismo nem texto: só movimento, continuidade e lógica.
 - Uma variável por teste. Se mudou duas, o aprendizado ficou contaminado e isso se registra.
 **Exercício:** auditar o próprio trecho gerado e emitir o veredito no formato
-`DECISÃO / Porque / Ação / Não tocar`.
+`DECISãO / Porque / Ação / Não tocar`.
 **Entregável:** auditoria preenchida + primeira linha do registro de experimentos.
 
 ### Módulo 5 · Montar a peça final (60 min)
@@ -274,7 +274,7 @@ fonte não vieram no pacote; todos os exemplos serão produzidos pra este curso.
 
 ---
 
-## 5 · Adaptação Brasil / INEMA
+## 5 · Adaptação Brasil / ARCKHé AI
 
 Mudanças explícitas em relação ao material de origem:
 
@@ -284,7 +284,7 @@ Mudanças explícitas em relação ao material de origem:
 | Biblioteca de Anúncios país padrão ES | País padrão BR |
 | Regulação europeia citada por artigo | "Verificar regras locais vigentes e opções de IA da plataforma"; sem citar lei específica |
 | Chave de transcrição em `.env.local` | Carregada em runtime do `.env` central do usuário, nunca copiada |
-| Montagem de material gravado a câmera aponta pra skill externa | Aponta pra `reel-edita-inema` |
+| Montagem de material gravado a câmera aponta pra skill externa | Aponta pra `reel-edita-arckhe` |
 | Caminhos e instalação só pra Mac (brew, fontes do sistema) | Instruções neutras Linux/Mac/Windows; fonte da marca embarcada |
 | Cor de destaque das legendas fixa | Cor de acento da marca do aluno, vinda da ficha |
 | Nomes de skill em espanhol | Nomes em português: `/espiona-ads`, `/video-ia`, `/auditor-video-ia`, `/anuncio-edita` (dois já servem) |
@@ -304,14 +304,14 @@ Mudanças explícitas em relação ao material de origem:
 - Os MP4s de demonstração não vieram. Exemplos serão produzidos.
 - O auditor cita um script de checagem de prompt que não está no pacote. Ou se escreve, ou se tira
   a referência.
-- A skill de espionagem depende de um navegador integrado ao agente; no INEMA, mapear pra
+- A skill de espionagem depende de um navegador integrado ao agente; no ARCKHé AI, mapear pra
   `agent-browser` ou pra extensão do Chrome.
 - A skill de montagem foi feita pra um ffmpeg sem libass; conferir o ffmpeg do aluno e oferecer os
   dois caminhos.
 
 **Decisões tomadas (2026-09-06):**
 - Formato do curso: `/formato-curso-v2` (dark âmbar + camada de aprendizagem).
-- Nome: "Anúncios Top com IA"; repo `inematds/anunciostop`.
+- Nome: "Anúncios Top com IA"; repo `linnoff88-dev/anunciostop`.
 - As 4 skills traduzidas entram como material de download (`anuncios-top-skills.zip`) e como
   instalação guiada no módulo 0.
 - Provedor padrão das demonstrações: **Agnes** (custo zero, via D por keyframes), configurada via
@@ -320,7 +320,7 @@ Mudanças explícitas em relação ao material de origem:
 
 **Próximos passos, em ordem:**
 1. Traduzir e adaptar as 4 skills pra PT-BR (é o material do módulo 0 e a base das demos). As
-   frases de doutrina do texto de origem são reescritas na voz INEMA, não só traduzidas.
+   frases de doutrina do texto de origem são reescritas na voz ARCKHé AI, não só traduzidas.
 2. Produzir os exemplos do projeto-fio.
 3. Montar o curso no formato escolhido.
 4. Guia do projeto (`guia/index.html`) e publicação no portal.

@@ -103,7 +103,7 @@ Em `Strictly exclude`, escrever os elementos proibidos em positivo: `any cut`, n
 - Nomear a primeira palavra quando o arranque é crítico.
 - Escrever números por extenso e evitar siglas.
 - **Teto de fala medido nesta superfície: 2,5-3,2 palavras/s (150-192 ppm).** Em 30 s cabem 75-96
-  palavras ditas. É o teto da interface, **não** o orçamento do roteiro: esse sai do trilho em
+  palavras ditas. é o teto da interface, **não** o orçamento do roteiro: esse sai do trilho em
   `ritmo.md`. Se o trilho pede mais do que cabe (um talking-head de 30 s pede 100-120), subir
   duração ou partir em dois módulos. **Não cortar o roteiro até caber.**
 - CTA em duas frases no máximo.

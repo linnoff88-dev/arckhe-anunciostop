@@ -7,7 +7,7 @@
 - Por que em dois blocos
 - Como se leem as respostas
 - E mais uma pergunta, só se precisar
-- O que NÃO se pergunta no bloco 1
+- O que NãO se pergunta no bloco 1
 - O ritmo não se pergunta aqui: recomenda-se no menu e confirma-se no bloco 2
 - Como cada resposta muda o prompt
 - Montagem e geração
@@ -48,7 +48,7 @@ vaga precisa conseguir seguir.
 4 · Que prova temos? Algo que dê pra MOSTRAR: uma tela, um resultado, um
     antes e depois, um número real.
 
-5 · O que NÃO podemos dizer? Promessas que não sustentamos, concorrentes
+5 · O que NãO podemos dizer? Promessas que não sustentamos, concorrentes
     que não se nomeiam, números sem confirmação.
 ```
 
@@ -57,18 +57,18 @@ vaga precisa conseguir seguir.
 | Pergunta | Pra que serve de verdade | Se vier vazia |
 |---|---|---|
 | **1 · O que se vende / o que se pede** | Decide o fechamento do vídeo e se cabe oferta no gancho | Pergunta de novo. Sem isso não há vídeo |
-| **2 · Pra quem** | É a matéria-prima do cold open: o gancho se constrói sobre um momento reconhecível dessa pessoa | Propõe-se um perfil e **marca-se como suposição** |
-| **3 · O que tem que pensar** | É **o mecanismo**. Daqui sai a variedade real do menu | Deriva-se de 1 e 2 e diz-se em voz alta |
+| **2 · Pra quem** | é a matéria-prima do cold open: o gancho se constrói sobre um momento reconhecível dessa pessoa | Propõe-se um perfil e **marca-se como suposição** |
+| **3 · O que tem que pensar** | é **o mecanismo**. Daqui sai a variedade real do menu | Deriva-se de 1 e 2 e diz-se em voz alta |
 | **4 · Que prova há** | Decide se cabem os modos que demonstram (demonstração, depoimento, produto herói) | Sem prova, **não se usa depoimento**: usa-se demonstração com o que existe |
-| **5 · O que não se pode dizer** | É a grade de proteção legal e de marca | Pergunta-se. É a única das cinco que evita um problema real |
+| **5 · O que não se pode dizer** | é a grade de proteção legal e de marca | Pergunta-se. é a única das cinco que evita um problema real |
 
 ## E mais uma pergunta, só se precisar
 
-- Se a ideia que trazem já é um modo concreto («quero um de cinema»): *«te prendo a esse modo ou
+- Se a ideia que trazem já é um modo concreto («quero um de carckhe»): *«te prendo a esse modo ou
   coloco como um dos dez e te mostro alternativas?»*
 - Se há um vídeo de referência que eles gostam: peça. Uma referência economiza três perguntas.
 
-## O que NÃO se pergunta no bloco 1
+## O que NãO se pergunta no bloco 1
 
 Duração · plataforma · avatar ou cara · voz · formato · idioma · proporção · quantos vídeos.
 **Nada disso entra aqui.** Se disserem por conta própria, anota-se e não se repergunta.
@@ -101,11 +101,11 @@ ficha de marca não se pergunta: diz-se como suposição.
     d) ninguém a câmera: voz off sobre imagem gerada
     e) uma pessoa gravada e transformada, mantendo cara e voz
 
-3 · O ritmo. E isso NÃO se pergunta em aberto: propõe-se.
+3 · O ritmo. E isso NãO se pergunta em aberto: propõe-se.
     «O 03 eu levo pra MEDIDO, é um conceito de intriga e os cortes rápidos
-    comem a tensão; e o 05 pra FRENÉTICO, que é entrevista de rua.
+    comem a tensão; e o 05 pra FRENéTICO, que é entrevista de rua.
     Fecha pra você ou quer mais movimentados?»
-    Se não responderem, aplica-se o recomendado. Na dúvida, DINÂMICO.
+    Se não responderem, aplica-se o recomendado. Na dúvida, DINâMICO.
 
 4 · Em que plataforma vocês vão gerar?
     (pra ajustar o formato do prompt, não pra mudar a ideia)
@@ -120,7 +120,7 @@ ficha de marca não se pergunta: diz-se como suposição.
 | **Duração** | Decide se convém uma geração de até 30 s, módulos de 15-20 s, one-take da interface ou vários clipes. Não existe teto universal de planos: desenha-se por conceito e por superfície |
 | **Via a** (inventado) | Sem bloco de identidade verificada. Descrição de personagem muito detalhada, porque é a única coisa que o mantém igual entre planos |
 | **Via b** (cara verificada) | Entra o bloco de asset + a linha de prioridade de identidade. → `identidade-e-voz.md` |
-| **Via c** (foto + áudio) | **O áudio que se sobe É a voz que soa.** Não há bloco de referência de timbre, e o prompt só dirige gesto e câmera |
+| **Via c** (foto + áudio) | **O áudio que se sobe é a voz que soa.** Não há bloco de referência de timbre, e o prompt só dirige gesto e câmera |
 | **Via d** (voz off) | Ninguém mexe a boca. Elimina-se todo o lip-sync do prompt e **a qualidade da imagem sobe muito**: é a via mais segura do catálogo, e a via natural da Agnes |
 | **Via e** (gravar e transformar) | Cara, voz, atuação e timing vêm do clipe gravado. O prompt muda cena ou acabamento sem inventar gestos → `gravar-e-transformar.md` |
 | **Plataforma** | Ativa um adaptador: Agnes por keyframes, Seedance multishot, Dreamina one-take, modular. Não muda a ideia, muda a unidade de produção e o prompt |

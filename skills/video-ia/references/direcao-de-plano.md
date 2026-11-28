@@ -103,7 +103,7 @@ que se repete sobre N objetos é **N ações**, não uma:
 
 - **Piso de ~1,2 s por objeto.** Três gestos pedem 4-5 s, não 3.
 - **Escrever o estado intermediário, não só o final**: dizer que objetos seguem intactos enquanto
-  se trabalha o primeiro. É o que impede o modelo de pular pro resultado.
+  se trabalha o primeiro. é o que impede o modelo de pular pro resultado.
 - **Uma referência do estado completo empurra pro salto.** Se a sequência importa, ou se assa o
   estado intermediário ou se pica em insertos de uma ação. → `imagens.md`
 
@@ -146,7 +146,7 @@ humano, e essa âncora vale pra todos os planos.
 Sem a âncora, **cada plano deduz de novo a escala da própria composição**: colossal no plano
 geral, do tamanho de um cavalo assim que alguém sobe.
 
-**E se escreve como a interação, não como uma medida solta.** É onde quebra:
+**E se escreve como a interação, não como uma medida solta.** é onde quebra:
 
 - ❌ «o dragão é enorme»
 - ✅ «o ombro do dragão está a três vezes a altura dele; só a cabeça é mais comprida que o corpo

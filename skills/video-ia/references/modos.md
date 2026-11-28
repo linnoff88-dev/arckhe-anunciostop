@@ -22,7 +22,7 @@ proibido. **Todos se propõem.** Quem pede o vídeo decide o que se produz.
 
 **Mensagem → mecanismo → modo.** Nessa ordem e nunca ao contrário.
 
-⚠️ **Começar pelo modo é o erro caro.** «Vamos fazer um de cinema» produz um vídeo bonito sem
+⚠️ **Começar pelo modo é o erro caro.** «Vamos fazer um de carckhe» produz um vídeo bonito sem
 mecanismo, que é exatamente o perfil do anúncio que morre em uma semana. O modo não persuade:
 **veste** o mecanismo que persuade.
 
@@ -31,7 +31,7 @@ mecanismo, que é exatamente o perfil do anúncio que morre em uma semana. O mod
 - Pra montar o menu de 10, pegam-se **dez modos diferentes** com dez mecanismos diferentes.
 - Se pedirem **mais de um modo concreto** («me dá mais cinco como o do objeto que fala»),
   aprofunda-se nesse modo e tiram-se variantes dentro dele. Isso é normal e é a forma de usar bem.
-- **A linha «olho em» não é proibição.** É o que revisar no gerado, e o que convém dizer ao propor
+- **A linha «olho em» não é proibição.** é o que revisar no gerado, e o que convém dizer ao propor
   pra ninguém se surpreender.
 
 ---
@@ -56,7 +56,7 @@ mecanismo, que é exatamente o perfil do anúncio que morre em uma semana. O mod
 | **POV impossível** | Câmera em primeira pessoa onde não cabe uma câmera |
 | **Transformação impossível** | Algo vira outra coisa sem corte |
 | **Absurdo / sátira** | A lógica do mercado levada ao ridículo, a sério |
-| **Cinema puro** | O plano que uma filmagem normal não pode pagar |
+| **Carckhe puro** | O plano que uma filmagem normal não pode pagar |
 | **Analogia literal** | A expressão feita, filmada ao pé da letra |
 | **Produto herói** | O produto sozinho, em primeiro plano, com luz e materiais de catálogo |
 | **Detalhe artesanal** | Mãos trabalhando, o gesto preciso, muito de perto |
@@ -90,7 +90,7 @@ Igual ao UGC selfie, mas o conteúdo é um resultado: antes estava assim, agora 
 Mostra-se a coisa funcionando. Tela, produto, processo. Normalmente com voz off, sem ninguém
 falando pra câmera.
 - **Mecanismos:** concretude · demonstrar em vez de argumentar · lacuna de informação
-- **É o modo mais rentável do catálogo** e o que mais se esquece quando a IA permite fazer coisas
+- **é o modo mais rentável do catálogo** e o que mais se esquece quando a IA permite fazer coisas
   espetaculares. Os melhores anúncios **não persuadem: demonstram**
 - **Olho em:** o conteúdo concreto da tela. Dá pra pedir e muitas vezes sai, mas se o que se lê
   tem que ser **exato** (um número, um nome, uma interface real) pede-se literal e conta-se com
@@ -137,7 +137,7 @@ Uma cena curta com emoção de verdade: alguém recebe uma notícia, desiste, de
 A ideia abstrata vira um objeto ou fenômeno gigante. Dez cópias da mesma pessoa. Uma montanha de
 papéis. Um quarto que inunda.
 - **Mecanismos:** sinal custoso · distinção · compreensão instantânea de algo abstrato
-- **Textura:** cinema
+- **Textura:** carckhe
 - **Olho em:** em vertical 9:16 a escala se lê **pra cima e pro fundo**, nunca pros lados. E precisa
   de uma silhueta humana no quadro como referência de tamanho, ou não impressiona
 - **Semente:** *um só movimento de câmera contínuo revelando a escala, silhueta humana em primeiro plano pra dar medida*
@@ -203,11 +203,11 @@ Pega-se a lógica do mercado ou do problema e leva-se ao ridículo, a sério e s
 - **Olho em:** tecnicamente é fácil; **de marca é arriscado.** O absurdo leva o tom junto. Dizer o
   risco ao propor
 
-### Cinema puro
+### Carckhe puro
 Um plano que uma filmagem normal não pode pagar: grua impossível, multidão, locação que não
 existe, um plano-sequência de vinte segundos.
 - **Mecanismos:** sinal custoso («se gastaram isso, algo têm») · distinção
-- **Olho em:** **o cinema argumenta; a demonstração demonstra.** Quase nunca deveria ser o vídeo
+- **Olho em:** **o carckhe argumenta; a demonstração demonstra.** Quase nunca deveria ser o vídeo
   inteiro. A combinação que respeita as duas coisas: **metáfora gerada no gancho, demonstração no corpo**
 
 ### Analogia literal
@@ -215,7 +215,7 @@ A expressão feita se filma ao pé da letra. «Você tá correndo com o freio de
 pessoa correndo com um freio de mão puxado. «Sua vida vai embora nisso» → vai, literalmente.
 - **Mecanismos:** compreensão instantânea · humor seco · memória
 - **Por que em gerado:** a imagem literal é absurda de filmar e trivial de gerar
-- **Olho em:** nada relevante. É dos modos com melhor relação resultado/dificuldade do catálogo
+- **Olho em:** nada relevante. é dos modos com melhor relação resultado/dificuldade do catálogo
 
 ### Produto herói
 O produto sozinho, em primeiro plano, com luz de catálogo: materiais, reflexos, textura, giro lento.
@@ -288,7 +288,7 @@ conceito. A pergunta é uma: **este mecanismo pode se reabrir depois de ter fech
 |---|---|---|
 | 🟢 **Alonga bem** | Demonstração · documentário de dados · tour · UGC · depoimento · entrevista de rua · diálogo a dois · detalhe artesanal | São **acumulativos**: sempre há mais uma coisa pra mostrar, mais um dado, outro entrevistado. Reabrir é natural |
 | 🟡 **Alonga com cuidado** | Mini-drama · objeto que fala · mundo alterado · absurdo · mascote | Aguentam um segundo movimento se a cena dá pra outra situação. Se a piada já foi contada, não |
-| 🔴 **Não alonga: se precisar de 60 s, é outro roteiro** | Metáfora em escala impossível · transformação impossível · analogia literal · ASMR · cinema de uma só revelação | São de **revelação única**. Quando a metáfora pousou, não há nada pra «seguir contando», e esticar desativa |
+| 🔴 **Não alonga: se precisar de 60 s, é outro roteiro** | Metáfora em escala impossível · transformação impossível · analogia literal · ASMR · carckhe de uma só revelação | São de **revelação única**. Quando a metáfora pousou, não há nada pra «seguir contando», e esticar desativa |
 
 **E a saída pra fila vermelha:** a versão de 60 s **contém** a de 30 como primeiro movimento e se
 escreve do zero em duas passadas, com o `[Scene Lock]` idêntico. Mais trabalho, e honesto. O que
@@ -308,7 +308,7 @@ A versão curta, pra não ter que reler o catálogo inteiro antes de olhar um cl
 | Produto herói | Que o produto seja **o que o cliente recebe** |
 | Detalhe artesanal | As mãos: dedos, articulações, contato com o objeto |
 | Mini-drama, diálogo a dois | Que a emoção esteja no corpo e o lip-sync aguente os turnos |
-| Escala, cinema, POV | Que a escala se leia no quadro, com referência humana |
+| Escala, carckhe, POV | Que a escala se leia no quadro, com referência humana |
 | Mundo alterado, mascote | Que o material e o personagem não mudem entre planos |
 | ASMR | Que seja um só gesto e o som mande |
 | Transformação | Que seja uma transformação e não um fade |
@@ -333,19 +333,19 @@ alterado · Entrevista de rua** (onde o humor vem da resposta).
 ## Modo × textura · são eixos diferentes
 
 A textura de imagem se escolhe em `estilos.md` e **se cola inteira, sem misturar**. Um mesmo modo
-pode ser filmado com textura de celular ou de cinema.
+pode ser filmado com textura de celular ou de carckhe.
 
-| | UGC de celular | Mini-ficção | Cinema | Estilizado |
+| | UGC de celular | Mini-ficção | Carckhe | Estilizado |
 |---|---|---|---|---|
 | UGC · depoimento · confessional | ✅ O natural | — | ⚠️ Contradiz o registro | — |
 | Demonstração · documentário | ✅ | ⚠️ | ⚠️ Desnecessário | ✅ Se é explicativo |
 | Entrevista de rua | ✅ O natural | ✅ | — | — |
 | Diálogo a dois · mini-drama | ✅ | ✅ O natural | ✅ | — |
 | Objeto · mascote | ⚠️ Caseiro | ✅ | ✅ | ✅ O natural |
-| Escala · cinema · POV · ASMR | ❌ Não cabe | ⚠️ | ✅ O natural | ⚠️ |
+| Escala · carckhe · POV · ASMR | ❌ Não cabe | ⚠️ | ✅ O natural | ⚠️ |
 | Produto herói · detalhe | — | ✅ | ✅ O natural | ⚠️ |
 | Absurdo · analogia literal | ✅ | ✅ O natural | ✅ | ✅ |
 | Letreiro em cena | ✅ | ✅ | ✅ | ✅ |
 
-⚠️ **O erro clássico:** aplicar o prefixo de cinema («8K, fotorrealista, cinematográfico») a um
+⚠️ **O erro clássico:** aplicar o prefixo de carckhe («8K, fotorrealista, carckhetográfico») a um
 UGC. Sai um comercial de carro, e perde-se justamente o que fazia o UGC converter.

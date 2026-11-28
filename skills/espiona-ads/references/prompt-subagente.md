@@ -5,7 +5,7 @@ Substitua `{BASE}`, `{IDS}`, `{MARCA}`, `{NICHO}` e `{NOTA}`. Modelo `sonnet`. 3
 ---
 
 Analise 3 anúncios em vídeo da Meta (concorrente "{MARCA}", nicho: {NICHO}). O objetivo é fazer
-engenharia reversa da ESTRUTURA PERSUASIVA e da EDIÇÃO pra poder replicar a fórmula.
+engenharia reversa da ESTRUTURA PERSUASIVA e da EDIçãO pra poder replicar a fórmula.
 
 BASE: {BASE}
 
@@ -46,11 +46,11 @@ De que tipo (banco, prints de tela, gráficos, depoimentos)? Há zooms/punch-ins
 Música? (deduza do transcript e dos frames, e diga explicitamente quando não puder saber).
 
 ## Feito com IA?
-Veredito com NÍVEL DE CONFIANÇA (alto/médio/baixo) e as EVIDÊNCIAS concretas que você viu nos
+Veredito com NíVEL DE CONFIANçA (alto/médio/baixo) e as EVIDêNCIAS concretas que você viu nos
 frames. Procure: avatar sintético (lábios dessincronizados, piscar estranho, pescoço/ombros
 rígidos, fundo estático), voz TTS (cadência uniforme demais, entonação plana no transcript),
 B-roll generativo (mãos deformadas, texto ilegível em cartazes, física estranha, morphing entre
-frames), templates de edição automatizada, banco genérico. **NÃO afirme que é IA sem evidência
+frames), templates de edição automatizada, banco genérico. **NãO afirme que é IA sem evidência
 visual concreta. Se parece gravação humana real, diga.**
 
 ## O que roubar

@@ -52,7 +52,7 @@
   const uniq = [...new Map(ads.map(a => [a.id, a])).values()];
   window.__ADS = uniq;
 
-  // agrupa por asset pra saber quantos VÍDEOS distintos há de verdade
+  // agrupa por asset pra saber quantos VíDEOS distintos há de verdade
   const porAsset = {};
   uniq.filter(a => a.hd).forEach(a => {
     (porAsset[a.asset] = porAsset[a.asset] || { dur: a.dur, ids: [] }).ids.push(a.id);

@@ -9,7 +9,7 @@
 - Como se monta um prompt de imagem
 - 🔴 Tudo que tem que sair EXATO se assa em imagem, não se pede ao vídeo
 - O produto no plano
-- Via animada ou de cinema
+- Via animada ou de carckhe
 
 ## Quando precisa de imagem, e quando não
 
@@ -18,7 +18,7 @@ necessárias em três casos, e nos demais são um passo a mais que custa dinheir
 
 | Caso | Pra quê |
 |---|---|
-| **Fluxo primeiro/último frame** | Controle real do movimento nos clipes animados ou de cinema |
+| **Fluxo primeiro/último frame** | Controle real do movimento nos clipes animados ou de carckhe |
 | **Referência de identidade** | Que a mesma pessoa apareça igual em todos os clipes |
 | **Validar o ângulo barato** | Um anúncio com imagem fixa + voz off já diz se o gancho funciona |
 
@@ -42,7 +42,7 @@ e cada geração improvisa diferente.**
 | **Figurino** | Peças e cores concretas |
 | **Cena** | Locação e fundo, com a bagunça dele |
 | **Luz** | Fonte, direção, dureza, temperatura |
-| **Âncoras** | Textura de pele real, restrições, limpeza |
+| **âncoras** | Textura de pele real, restrições, limpeza |
 
 **Os prompts de imagem vão em inglês.** Os modelos respondem melhor e derivam menos. Na Agnes é
 obrigatório: prompt em português dispara o filtro de conteúdo e devolve erro em pedido legítimo.
@@ -56,12 +56,12 @@ restrições. Essa hierarquia coloca o importante onde o modelo pesa mais.
 - **Textura de pele real**: poros, imperfeições, assimetria. Pele perfeita é a delação nº 1.
 - **Registro de celular**: enquadramento imperfeito, levemente descentrado. Nada de composição de estúdio.
 - **Grão leve** e alguma compressão. Nitidez perfeita não existe em vídeo de celular.
-- **Fundo com vida**: objetos reais, algo fora do lugar. *Home office real, luz natural, que NÃO
+- **Fundo com vida**: objetos reais, algo fora do lugar. *Home office real, luz natural, que NãO
   pareça set de venda.*
 - **Restrições no fim**: sem texto, sem marca d'água, sem deformações, sem mãos estranhas.
 
 ⚠️ **Nunca peça «hiper-realista», «fotorrealista», «8K» nem «render» num UGC.** Empurram o modelo
-pra estética publicitária. É o mesmo erro de aplicar o prefixo de cinema a um talking-head; ver
+pra estética publicitária. é o mesmo erro de aplicar o prefixo de carckhe a um talking-head; ver
 `estilos.md`. Peça uma foto de celular e descreva as condições de uma foto de celular.
 
 ### Mudanças sem perder a pessoa
@@ -128,7 +128,7 @@ Pra **cada** elemento que deva sair exato:
 Aplica-se a todo texto legível; o texto decorativo ilegível (telas borradas, papéis de fundo)
 continua sendo pedido borrado e sem referência.
 
-### 🔴 O limite: uma referência de estado final NÃO produz uma sequência
+### 🔴 O limite: uma referência de estado final NãO produz uma sequência
 
 Uma imagem de referência diz **como tem que ficar**, não **em que ordem se chega**. Se você dá o
 estado final e três segundos, o modelo interpola pra esse estado pelo caminho mais curto, e o
@@ -146,7 +146,7 @@ imagem do resultado completo como destino.
    aconteceu é o que impede o salto.
 3. **Assar o estado intermediário** como referência própria (um riscado, dois limpos) e usá-lo como
    primeiro frame do trecho.
-4. **Picar em insertos** de uma só ação cada e montar. É o seguro quando a sequência *é* a piada.
+4. **Picar em insertos** de uma só ação cada e montar. é o seguro quando a sequência *é* a piada.
 
 **Regra curta:** as referências controlam a **forma**; a ordem e o ritmo se controlam na **prosa do
 plano** e nos **segundos que você dá**. Nunca espere que uma imagem dirija o tempo.
@@ -189,11 +189,11 @@ comunidade se compõe com a captura real, nunca se gera.
 
 ---
 
-## Via animada ou de cinema
+## Via animada ou de carckhe
 
 ### A metáfora visual
 
-Antes de gerar uma única imagem, decida **a metáfora**. É a decisão mais importante desta via e a
+Antes de gerar uma única imagem, decida **a metáfora**. é a decisão mais importante desta via e a
 que mais se pula.
 
 - Mecanismo de acumulação → algo que se enche
@@ -220,7 +220,7 @@ Defina uma estética própria e descreva.
 ### Primeiro e último frame
 
 Em vez de pedir um vídeo e aceitar o que sair, você gera **as duas imagens extremas** de cada clipe
-e o modelo interpola o movimento. **É o modo nativo da Agnes** e funciona em qualquer plataforma
+e o modelo interpola o movimento. **é o modo nativo da Agnes** e funciona em qualquer plataforma
 que aceite primeiro/último frame.
 
 ```

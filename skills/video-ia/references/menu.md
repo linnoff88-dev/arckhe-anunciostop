@@ -13,7 +13,7 @@ dizer «esse sim, esse não» sem ter gerado nada.
 ## O formato de cada ficha
 
 ```
-· 03 · O estagiário invisível — OBJETO QUE FALA · mini-ficção · 30 s · ritmo DINÂMICO
+· 03 · O estagiário invisível — OBJETO QUE FALA · mini-ficção · 30 s · ritmo DINâMICO
   A cena: um notebook sozinho num escritório escuro reclama em voz alta que faz quatro horas que
   espera alguém decidir uma coisa que ele mesmo podia ter feito. Enquanto fala, a tela vai se
   enchendo de trabalho pronto que ninguém pediu. Termina tranquilo, quase gentil.
@@ -26,7 +26,7 @@ dizer «esse sim, esse não» sem ter gerado nada.
     4 · (9-12 s) A tela se enche sozinha de trabalho pronto.
     …
   Por que morde: o objeto diz a objeção que o espectador não admite em voz alta.
-  🎚 Ritmo: dinâmico. É um monólogo com graça, não uma intriga.
+  🎚 Ritmo: dinâmico. é um monólogo com graça, não uma intriga.
   ➕ Alonga pra 60 s por: o inventário do que ele já tinha feito sozinho, objeto por objeto.
   🎲 Risco: baixo. A tela se pede com conteúdo borrado, sem texto legível.
 ```
@@ -37,7 +37,7 @@ em meia linha. Sai de `cold-open.md`. Se o usuário não deu oferta, a ficha diz
 
 ### «A cena», em cima e em prosa
 
-É a primeira coisa que se lê e vai **antes do cold open**. Duas ou três linhas contando o que
+é a primeira coisa que se lê e vai **antes do cold open**. Duas ou três linhas contando o que
 acontece **de uma vez, como você contaria por telefone**, com o arremate incluído. Sem jargão de plano.
 
 Um exemplo: *«começa com o apresentador, uma luz acende numa cara, ele diz "confessa", como se
@@ -62,7 +62,7 @@ fácil») não dá pra validar: tem que dar pra ouvir ao ler.
 ## As sete regras do menu
 
 ### 1 · Dez mecanismos diferentes, não um modo com dez cenários
-É a falha mais comum e a que torna o menu inútil. Se oito fichas são «uma pessoa falando pra câmera
+é a falha mais comum e a que torna o menu inútil. Se oito fichas são «uma pessoa falando pra câmera
 em outro lugar», há **um** conceito, não oito.
 
 **Checagem antes de entregar:** tape o nome e o cenário de cada ficha e deixe só o mecanismo.
@@ -77,25 +77,25 @@ estão distribuídos em partes iguais:
 | **UGC**: selfie, confessional, depoimento com personagens que o próprio modelo inventa | **3** |
 | **Mini-ficção**: mini-drama, diálogo a dois, absurdo, analogia literal, mundo alterado | **3** |
 | **Demonstração**: mostrar a coisa funcionando | **2**, e é cota, não opção |
-| **Cinema**: escala, metáfora, POV, plano impossível | **2** |
+| **Carckhe**: escala, metáfora, POV, plano impossível | **2** |
 
 **Por quê:** as caras que o modelo inventa saem extremamente naturais e sem referências; a
 demonstração é o que melhor converte; e o caro de gerar não é o que melhor vende.
 
 🔴 **E a distribuição se quebra assim que pedirem.** «Me dá mais cinco em UGC» ou «todos cômicos»
-manda sobre esta tabela, sem discutir. É um padrão, não uma doutrina.
+manda sobre esta tabela, sem discutir. é um padrão, não uma doutrina.
 
 ### 1c · DEPOIMENTO só com caso real
 O modo DEPOIMENTO precisa de **um caso individual real e autorizado** (uma pessoa concreta que
-disse aquilo). Um dado agregado («70 % repetem») **não é depoimento**: vai pra DEMONSTRAÇÃO ou
-DOCUMENTÁRIO DE DADOS. Se não há caso, não se propõe o modo, e nunca se inventa nome nem frase.
+disse aquilo). Um dado agregado («70 % repetem») **não é depoimento**: vai pra DEMONSTRAçãO ou
+DOCUMENTáRIO DE DADOS. Se não há caso, não se propõe o modo, e nunca se inventa nome nem frase.
 
 ### 2 · Nada se descarta de entrada, e pelo menos dois demonstram
 O catálogo de `modos.md` não tem modos vetados: **tudo se propõe** e quem pede o vídeo decide o que
 se produz. O que se diz em cada ficha é o que vigiar ao gerar.
 
 E uma cota que sim se respeita: **pelo menos dois dos dez têm que demonstrar algo**: mostrar o
-produto, o processo ou o resultado funcionando. É o mecanismo que mais converte e o primeiro que
+produto, o processo ou o resultado funcionando. é o mecanismo que mais converte e o primeiro que
 se esquece quando a IA permite fazer coisas espetaculares.
 
 ### 3 · Cada conceito leva seu nível de ritmo, recomendado e justificado
@@ -103,7 +103,7 @@ Uma linha `🎚 Ritmo:` com o nível (frenético · dinâmico · medido · conte
 padrão é dinâmico, mas um conceito de intriga vai pra medido: cortes rápidos comem a tensão. Não se
 pergunta em aberto, propõe-se. → `ritmo.md`
 
-E os beats do mini-roteiro **levam seu trecho de tempo, no ritmo desse nível**. É o que permite ver,
+E os beats do mini-roteiro **levam seu trecho de tempo, no ritmo desse nível**. é o que permite ver,
 lendo a ficha, se o conceito vai reter ou vai apagar no segundo dez.
 
 ⚠️ **Um conceito de 30 s em ritmo dinâmico com três beats não está desenhado, está esboçado.**
@@ -144,7 +144,7 @@ Se pedirem mais ideias, acrescentam-se ao mesmo menu numerando de onde parou (11
 **mudando de mecanismo**, não repetindo o mesmo modo com outro cenário.
 
 Salvo se pedirem justamente o contrário: **«me dá mais cinco como o do objeto que fala»**. Aí sim
-se aprofunda nesse modo e se tiram variantes dentro dele. É a forma normal de usar o catálogo
+se aprofunda nesse modo e se tiram variantes dentro dele. é a forma normal de usar o catálogo
 quando um modo agradou.
 
 ## E uma honestidade obrigatória

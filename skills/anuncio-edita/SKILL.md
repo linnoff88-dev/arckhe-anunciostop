@@ -1,6 +1,6 @@
 ---
 name: anuncio-edita
-description: Pós-produção de anúncios GERADOS com IA (saídos do /video-ia): junta módulos de ≤30 s na peça final, cuida das costuras, decide e monta a pista de voz, põe legendas sóbrias que ficam bem, acrescenta o letreiro de fechamento e masteriza pra Meta/Instagram. Entrada flexível — um clipe de 30 s, uma peça de 90 s já montada, ou N módulos soltos pra montar. Critério de editor sênior, edição pouco carregada, intervenções extras só se agregam e com OK do usuário. USAR quando o usuário disser "/anuncio-edita", "edita o anúncio", "junta os módulos", "monta o anúncio inteiro", "põe legenda no anúncio", "prepara o anúncio pra Meta", ou passar MP4s gerados com IA pedindo pra deixar prontos pra publicar. NÃO é pra bruto gravado com câmera (isso é reel-edita-inema) nem pra julgar se uma geração se conserva ou regenera (isso é /auditor-video-ia).
+description: Pós-produção de anúncios GERADOS com IA (saídos do /video-ia): junta módulos de ≤30 s na peça final, cuida das costuras, decide e monta a pista de voz, põe legendas sóbrias que ficam bem, acrescenta o letreiro de fechamento e masteriza pra Meta/Instagram. Entrada flexível — um clipe de 30 s, uma peça de 90 s já montada, ou N módulos soltos pra montar. Critério de editor sênior, edição pouco carregada, intervenções extras só se agregam e com OK do usuário. USAR quando o usuário disser "/anuncio-edita", "edita o anúncio", "junta os módulos", "monta o anúncio inteiro", "põe legenda no anúncio", "prepara o anúncio pra Meta", ou passar MP4s gerados com IA pedindo pra deixar prontos pra publicar. NãO é pra bruto gravado com câmera (isso é reel-edita-arckhe) nem pra julgar se uma geração se conserva ou regenera (isso é /auditor-video-ia).
 ---
 
 # /anuncio-edita — Pós-produção de anúncios gerados com IA
@@ -49,12 +49,12 @@ ffmpeg -hide_banner -filters | grep -E ' (subtitles|ass|drawtext) '
 - **Não tem (builds mínimos, alguns Macs):** a via `overlay-fallback/`. Fonte via variável
   `CAPTION_FONT`; cor da palavra-chave via `KEYWORD_COLOR` (vem da ficha de marca).
 
-Voz: quando um remendo de palavra ou a locução inteira vêm de voz clonada, o padrão INEMA é o
-**inemavox** (engine `chatterbox`, voz da ficha do apresentador). ElevenLabs só se a ficha disser.
+Voz: quando um remendo de palavra ou a locução inteira vêm de voz clonada, o padrão ARCKHé AI é o
+**arckhevox** (engine `chatterbox`, voz da ficha do apresentador). ElevenLabs só se a ficha disser.
 
 ## F0 · Ingestão e diagnóstico
 
-A entrada NÃO tem padrão fixo: pode ser 1 clipe de 30 s, a peça de 90 s já montada pelo usuário, ou
+A entrada NãO tem padrão fixo: pode ser 1 clipe de 30 s, a peça de 90 s já montada pelo usuário, ou
 N módulos soltos. Primeiro olha-se TUDO, depois pergunta-se o mínimo.
 
 1. `ffprobe` de cada arquivo: duração, resolução, fps, codecs, loudness de partida.
@@ -66,7 +66,7 @@ N módulos soltos. Primeiro olha-se TUDO, depois pergunta-se o mínimo.
 4. Diagnóstico em 5 linhas: o que chega, ordem proposta, onde estão as costuras, caudas sobrando
    (a plataforma arredonda: pede 28 s, dá 30), e se a voz é clone, sintetizada ou real.
 5. **Perguntar SÓ o que falta** (nunca o que o dossiê já diz):
-   - Pista de voz definitiva: a do vídeo (clone), a sintetizada (inemavox) ou a gravação original
+   - Pista de voz definitiva: a do vídeo (clone), a sintetizada (arckhevox) ou a gravação original
      do apresentador em cima?
    - Letreiro de fechamento: só logo, logo + oferta literal da ficha de marca, ou nada?
    - Algo pra substituir em pós (tela corner-pin, palavra remendada)?
@@ -91,8 +91,8 @@ depois, alinhada por beat do roteiro. A costura de voz não existe porque a voz 
 
 Três casos, por ordem de frequência:
 
-- **Clone do vídeo OK** → não tocar. É a via padrão (a emoção integrada ganha).
-- **Uma palavra mal dita** → remendo com o clone do apresentador (inemavox, mesma referência de
+- **Clone do vídeo OK** → não tocar. é a via padrão (a emoção integrada ganha).
+- **Uma palavra mal dita** → remendo com o clone do apresentador (arckhevox, mesma referência de
   voz da ficha) e substituir SÓ essa frase. Não se regenera vídeo por um erro de palavra.
 - **O usuário manda a gravação original como pista definitiva** → alinhar por timings word-level
   (transcrição das duas pistas), montar em cima conservando o ambiente do vídeo por baixo (voz
@@ -166,4 +166,4 @@ Vídeo: H.264 high, CRF 17-18, `-movflags +faststart`, 1080×1920, fps do materi
 
 Não decide estratégia, não escreve prompts de geração (`/video-ia`), não julga se uma geração se
 conserva ou regenera (`/auditor-video-ia`), não edita bruto gravado com câmera
-(`reel-edita-inema`), não publica.
+(`reel-edita-arckhe`), não publica.

@@ -21,9 +21,9 @@ Pra cada uma: pra que serve · o prompt pra criá-la · o que conferir antes de 
 - Na Agnes: o par de keyframes (A e B) de cada clipe, com o comando pronto do `imagens-agnes`.
 
 ## 2 · Roteiro pra ler em voz alta
-<Se for gravar a voz: o roteiro. Se a voz é gerada pelo modelo, o bloco SE MANTÉM com uma só
+<Se for gravar a voz: o roteiro. Se a voz é gerada pelo modelo, o bloco SE MANTéM com uma só
 linha: «Não se aplica nesta peça: a voz é gerada pelo modelo, e o diálogo vai dentro do prompt.»
-Se a voz é sintetizada pelo inemavox (via D na Agnes): o roteiro, mais a voz e o engine escolhidos.>
+Se a voz é sintetizada pelo arckhevox (via D na Agnes): o roteiro, mais a voz e o engine escolhidos.>
 Texto limpo por trecho, sem rubricas, com o número de palavras ao lado. E as quatro instruções de
 gravação: cada trecho separado · duas ou três leituras · um segundo de ar de cada lado · máxima
 qualidade do celular.
@@ -34,7 +34,7 @@ qualidade do celular.
 | 1ª | @Image1 | <foto real / close> | identidade facial, linha do cabelo, pele | fundo, enquadramento, luz |
 | 2ª | @Image2 | <folha de personagem> | proporções, roupa, ângulos | a grade e os rótulos impressos |
 | … | @Audio1 | <amostra de voz ou locução> | timbre, sotaque, cadência | as palavras dela |
-A ordem de upload É o binding: se subir em outra ordem, o prompt aponta pra referência errada.
+A ordem de upload é o binding: se subir em outra ordem, o prompt aponta pra referência errada.
 
 ## 4 · Prompts pra copiar e colar
 ### Trecho 1 · 0-30 s · <config: modelo, duração, formato, resolução, referências que usa>
@@ -60,7 +60,7 @@ frame como ponte).
 Se grava a voz, **a peça dura o que o áudio durar**, não um número redondo, e os trechos se cortam
 onde a voz cala, cada um começando e terminando em frase completa.
 
-## O que NÃO vai no arquivo
+## O que NãO vai no arquivo
 Plano de tentativas, orçamento, custo, preflight, hipótese ou variável de teste, registro de
 experimentos, handoff pro auditor, prompt mestre intermediário, remendos de voz clonada, notas de
 estilo. Se algo disso parece imprescindível, vai no chat em uma linha, não no arquivo.

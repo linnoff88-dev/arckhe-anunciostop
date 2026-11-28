@@ -18,7 +18,7 @@ segmento demográfico**: de um segmento demográfico não sai um cold open.
 Se há oferta ou teste grátis, **a frase literal, como se diz**. Não se improvisa nem se enfeita em
 cada vídeo.
 
-E o que **NÃO** se diz ao mencioná-la (condições que acrescentam atrito sem acrescentar informação).
+E o que **NãO** se diz ao mencioná-la (condições que acrescentam atrito sem acrescentar informação).
 
 ## A prova disponível
 O que dá pra **mostrar** num vídeo: telas, resultados, antes e depois, números reais, casos de
@@ -41,7 +41,7 @@ A cor de acento é a que as legendas usam na palavra-chave.
 ## Caras e vozes disponíveis
 | Quem | Via | O que já existe |
 |---|---|---|
-| | A / B / C / D / E | asset verificado · foto · amostra de voz · voz clonada (inemavox) |
+| | A / B / C / D / E | asset verificado · foto · amostra de voz · voz clonada (arckhevox) |
 
 ## Plataforma de geração padrão
 Agnes (custo zero, via D) · Seedance 2.5 via web · Dreamina · outra. Muda o adaptador que a skill

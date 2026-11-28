@@ -42,7 +42,7 @@ usada duas vezes.
 | Dial | O que é | Onde vai |
 |---|---|---|
 | **Look / grade** | Cor, luz, clima | Na locação e no prompt do vídeo. **Nunca** num asset de identidade |
-| **Textura / estilo** | O meio: celular, mini-ficção, cinema, 3D, anime | Em **tudo**: cada asset, cada plate e o vídeo, com a mesma frase literal. É identidade, não clima |
+| **Textura / estilo** | O meio: celular, mini-ficção, carckhe, 3D, anime | Em **tudo**: cada asset, cada plate e o vídeo, com a mesma frase literal. é identidade, não clima |
 
 Uma folha fotorrealista não pode virar um personagem de cel-shading: a textura viaja com tudo. O
 grading não viaja com nada que seja identidade. → `estilos.md`
@@ -100,7 +100,7 @@ entre cortes.
 em oblíquo pra que se vejam duas paredes e a profundidade. Um plate frontal e plano se lê como
 cenário de fundo, e o modelo de vídeo o trata como tal.
 
-**Vestir o plate como um diretor de arte.** É onde vive a riqueza do mundo, porque o prompt do
+**Vestir o plate como um diretor de arte.** é onde vive a riqueza do mundo, porque o prompt do
 vídeo não tem orçamento de caracteres pra isso: desgaste nas superfícies, profundidade em camadas
 (algo perto da câmera e algo longe), luzes práticas e objetos que digam quem vive ali. Um cômodo
 nu se lê como set. **Pessoas nunca vão no plate.**
@@ -115,7 +115,7 @@ person.`
 Mecanismo titular pra encadear módulos, validado em produção. Em superfícies em que o «extend» da
 interface não continua o seu próprio material (algumas oferecem um «remake viral» que clona o
 estilo de vídeos alheios), o frame-ponte é a única opção. Onde uma superfície tem extend nativo
-real, o extend continua ganhando. Na Agnes, o último frame de um clipe É o primeiro keyframe do
+real, o extend continua ganhando. Na Agnes, o último frame de um clipe é o primeiro keyframe do
 seguinte: a ponte é o próprio modo de trabalho.
 
 1. **O frame se extrai do MP4, nunca com print do player** (compressão, resolução de tela,
@@ -125,16 +125,16 @@ seguinte: a ponte é o próprio modo de trabalho.
 3. **O frame não substitui os locks:** identidade, scene lock e textura se repetem idênticos.
    Binding: `start exactly from this frame — same subject position, same lighting, same framing`.
    A imagem ancora a composição; os locks ancoram o que fica fora do quadro.
-   Variante: se o módulo seguinte NÃO deve arrancar nesse enquadramento, o binding muda pra
+   Variante: se o módulo seguinte NãO deve arrancar nesse enquadramento, o binding muda pra
    continuidade de mundo, não de composição: `TAKE everything as literal continuity — this film
    continues seconds after this frame · IGNORE only that it is a still: do not freeze on it and do
    not reproduce its exact framing`.
-4. **Áudio:** com frame-ponte, voz e ambiente arrancam do zero: a costura soa. Prever crossfade
+4. **áudio:** com frame-ponte, voz e ambiente arrancam do zero: a costura soa. Prever crossfade
    curto em pós e o banco de remendos de voz.
 5. **O truque da silhueta:** se um figurante cruza a costura entre módulos, o módulo N o deixa
    **de costas ou em silhueta** (não há cara pra casar) e o módulo N+1 **abre revelando a cara dele
    pela primeira vez**. A costura deixa de ser risco de continuidade e vira revelação narrativa.
-6. **A ordem de upload das referências É o binding.** Os `@ImageN` apontam por posição: se as
+6. **A ordem de upload das referências é o binding.** Os `@ImageN` apontam por posição: se as
    imagens são subidas na plataforma em outra ordem que a do prompt, todo o binding aponta pra
    referência errada. O dossiê declara sempre a ordem de upload (1ª, 2ª, 3ª…) junto dos prompts.
 7. **Reancorar o prompt ao render aprovado:** ao ativar a ponte, as descrições do módulo seguinte

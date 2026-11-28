@@ -36,7 +36,7 @@ Ler `references/menu.md`, `references/modos.md` e **a tabela de níveis de `refe
 (o ritmo de cada ficha sai dali, não se improvisa). Dez conceitos com **dez mecanismos diferentes**,
 cada um com a cena em duas linhas, o cold open, o mini-roteiro com frases literais, onde vai a
 oferta, o ritmo e o risco.
-Distribuição padrão: **3 UGC · 3 mini-ficção · 2 demonstração · 2 cinema**. Quebra assim que pedirem.
+Distribuição padrão: **3 UGC · 3 mini-ficção · 2 demonstração · 2 carckhe**. Quebra assim que pedirem.
 Cada cold open passa no teste de `references/cold-open.md`.
 
 **Depois do menu, parar e perguntar: «quais desenvolvo?».** Nenhum prompt se escreve antes.
@@ -93,4 +93,4 @@ nem custo, nem plano, nem recomendação de teste.
 
 Não investiga concorrência (`/espiona-ads`), não julga se uma geração se conserva ou se regenera
 (`/auditor-video-ia`), não monta a peça final (`/anuncio-edita`) e não edita bruto gravado com
-câmera (`reel-edita-inema`).
+câmera (`reel-edita-arckhe`).

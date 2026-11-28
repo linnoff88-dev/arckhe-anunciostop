@@ -17,13 +17,13 @@ cada una hace **una** cosa y deja un documento escrito para la siguiente.
 dirigir el plano y auditar antes de publicar. Por eso el sistema sigue siendo útil cuando cambie
 el modelo de moda.
 
-- Guía de uso: `guia/index.html` (publicada en `https://inematds.github.io/anunciostop/guia/es/`)
+- Guía de uso: `guia/index.html` (publicada en `https://linnoff88-dev.github.io/anunciostop/guia/es/`)
 - Descarga de las skills: [`anuncios-top-skills.zip`](anuncios-top-skills.zip)
 - Plan del curso: [`PLANO-CURSO.md`](PLANO-CURSO.md)
 
 ---
 
-## Índice
+## índice
 
 1. [Instalación](#1-instalación)
 2. [Qué más necesitas](#2-qué-más-necesitas)
@@ -208,7 +208,7 @@ Scripts: `captions.py`, `jargon-fix.py`, `export-srt.py`, `master-audio.py`, `ov
 Configuración de la superposición mediante variables: `CAPTION_FONT` (fuente) y `KEYWORD_COLOR` (color de acento).
 
 Si el material sin editar fue **grabado con cámara** en vez de generado, el montaje es otra skill
-(`reel-edita-inema`), no esta.
+(`reel-edita-arckhe`), no esta.
 
 ## 6. Proveedores y adaptadores
 
@@ -217,7 +217,7 @@ El método es neutral; el prompt final cambia según dónde lo pegues. Tres adap
 
 | Adaptador | Costo | Cómo se usa | Qué hace |
 |---|---|---|---|
-| **Agnes por keyframes** (predeterminado) | cero | `AGNES_API_KEY` | Imagen (text2img e img2img) y video por par de keyframes A→B, hasta 20 s por clip en 720p. Solo vía D (voz en off): la voz viene de inemavox o se graba y se monta después |
+| **Agnes por keyframes** (predeterminado) | cero | `AGNES_API_KEY` | Imagen (text2img e img2img) y video por par de keyframes A→B, hasta 20 s por clip en 720p. Solo vía D (voz en off): la voz viene de arckhevox o se graba y se monta después |
 | **Seedance 2.5 multishot** | pago | por la web del proveedor (TopView, Higgsfield, Magnific…) | Hasta 30 s con cortes dentro del prompt, referencias de imagen, video y audio, diálogo con lip-sync |
 | **Dreamina one-take / Seedance 2.0 modular** | pago | por la web | Una toma continua de 30 s o módulos de 15 s para montar |
 
@@ -273,7 +273,7 @@ El plan completo está en [`PLANO-CURSO.md`](PLANO-CURSO.md). Resumen:
 | 6 | Publicar con criterio y aprender con el cuarto anuncio | registro con la siguiente hipótesis |
 
 Un solo anuncio atraviesa los módulos 1 a 6 (el proyecto-hilo). Al final, la carpeta `anuncios/` del alumno
-es el portafolio del curso. Formato: INEMA `/formato-curso-v2`. Proveedor de las demostraciones: Agnes.
+es el portafolio del curso. Formato: ARCKHé AI `/formato-curso-v2`. Proveedor de las demostraciones: Agnes.
 
 ## 10. Avisos honestos
 
@@ -290,16 +290,16 @@ es el portafolio del curso. Formato: INEMA `/formato-curso-v2`. Proveedor de las
 ## 11. Origen y adaptación
 
 El método viene de un minicurso en español sobre anuncios con video IA. Esta versión fue traducida
-y adaptada al ecosistema INEMA:
+y adaptada al ecosistema ARCKHé AI:
 
 - portugués de Brasil en los textos y los prompts (con una instrucción negativa contra la deriva de acento);
 - Biblioteca de Anuncios con BR como país predeterminado;
 - adaptador Agnes (costo cero) como proveedor predeterminado, escrito a partir de mediciones reales de la API;
 - claves cargadas en runtime, nunca copiadas;
-- el montaje de material sin editar grabado apunta a `reel-edita-inema`;
+- el montaje de material sin editar grabado apunta a `reel-edita-arckhe`;
 - rutas y fuentes neutrales (Linux, Mac, Windows);
 - script escrito para verificar prompts (el original mencionaba uno que no venía incluido en el paquete);
 - se eliminaron las referencias a la fuente, las anécdotas con fecha y los números de cuentas ajenas; los valores que
   quedan son de referencia y deben validarse con datos propios.
 
-Proyecto de investigación y educación de INEMA.
+Proyecto de investigación y educación de ARCKHé AI.

@@ -18,7 +18,7 @@
       textura copiado literal.
 - [ ] Uma ação principal por plano/fase.
 - [ ] Diálogo e sotaque em formato correto (português do Brasil declarado, negativo contra deriva).
-- [ ] **Trilho declarado e orçamento de palavras dentro da faixa** (cinema 126-160 ppm ·
+- [ ] **Trilho declarado e orçamento de palavras dentro da faixa** (carckhe 126-160 ppm ·
       mini-ficção 150-190 · UGC/talking-head 200-240; pra 30 s: 63-80 / 75-95 / 100-120).
 - [ ] **Teto de fala da interface conferido.** Se o trilho pede mais do que a superfície diz,
       resolvido subindo duração ou partindo em módulos, **não cortando roteiro**.
@@ -40,7 +40,7 @@
 - Prompts de imagem em inglês, ≤ 2 referências, sem pose frontal simétrica.
 - `num_frames` = 8n+1 e dentro do teto do tier (481 em 720p = 20 s a 24 fps; 241 em 1080p).
 - Fila de vídeo ≤ 5 req/min; retry nos 503.
-- Voz (inemavox ou gravada) com roteiro no orçamento de voz off de cinema.
+- Voz (arckhevox ou gravada) com roteiro no orçamento de voz off de carckhe.
 - Último frame do clipe anterior extraído do MP4 como A do seguinte.
 
 ## Seedance 2.5 multishot

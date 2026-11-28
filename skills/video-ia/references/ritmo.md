@@ -6,7 +6,7 @@
 - O orçamento de palavras
 - Quantos planos cabem, e com que forma
 - Arquiteturas
-- Áudio
+- áudio
 - Gate
 
 ## Princípio
@@ -33,15 +33,15 @@ motivo não acrescenta ritmo.
 
 | Trilho | Palavras por minuto | Por quê |
 |---|---|---|
-| **Voz off de cinema** | **126-160 ppm** | A imagem tem que respirar. Metade de um talking-head |
+| **Voz off de carckhe** | **126-160 ppm** | A imagem tem que respirar. Metade de um talking-head |
 | **Mini-ficção · diálogo a dois** | **150-190 ppm** | Turnos curtos com micro-pausas entre falas. A pausa é atuação, não buraco |
 | **UGC · talking-head · confessional** | **200-240 ppm** | Não há nada pra olhar: a voz preenche tudo |
-| **Demonstração com apresentador** | **150-160 ppm** | Um apresentador cercado de interface diegética e objetos **não é talking-head**: a imagem carrega o tempo e a voz desce a ritmo de cinema |
+| **Demonstração com apresentador** | **150-160 ppm** | Um apresentador cercado de interface diegética e objetos **não é talking-head**: a imagem carrega o tempo e a voz desce a ritmo de carckhe |
 | **Entrevista de rua · listas · acumulação** | **220-250 ppm** | O mecanismo é a avalanche |
 
 Em palavras absolutas, com o trilho já decidido:
 
-| Duração | Voz off de cinema | Mini-ficção | UGC / talking-head |
+| Duração | Voz off de carckhe | Mini-ficção | UGC / talking-head |
 |---|---:|---:|---:|
 | **15 s** | 32-40 | 38-48 | 50-60 |
 | **30 s** | 63-80 | 75-95 | **100-120** |
@@ -79,13 +79,13 @@ Buscar **zero tempo morto, não zero silêncio**. Uma pausa vale se sustenta atu
 ou som.
 
 Em **UGC, dinâmico e frenético não se metem pausas sem conteúdo**: o buraco se preenche com
-diálogo, planos ou golpes de som. Em **cinema sim**, mesmo que o ritmo seja dinâmico: uma maré
+diálogo, planos ou golpes de som. Em **carckhe sim**, mesmo que o ritmo seja dinâmico: uma maré
 subindo, um corredor infinito, objetos chegando um a um; falar em cima estraga.
 
 | | |
 |---|---|
 | ✅ **Silêncio deliberado** | Há **algo pra olhar** que come o trecho inteiro e o ambiente segue soando por baixo. A imagem é o evento |
-| ❌ **Buraco** | Não acontece nada na tela e não se ouve nada. É tempo pago a zero |
+| ❌ **Buraco** | Não acontece nada na tela e não se ouve nada. é tempo pago a zero |
 
 > **O critério de honestidade:** se ao montar sobra silêncio, o problema é a imagem, não o texto.
 > Não preencha com palavras. Se o plano não aguenta cinco segundos sozinho, o silêncio não é elegância.
@@ -157,7 +157,7 @@ Gerar módulos separados quando:
 - um contraplano ou locação exige outra geração.
 
 Planejar estados de entrada/saída e locks literais. A montagem é uma rota válida, não um fracasso.
-**É a arquitetura natural da Agnes:** clipes de até 20 s por keyframes, voz off montada em cima.
+**é a arquitetura natural da Agnes:** clipes de até 20 s por keyframes, voz off montada em cima.
 
 **Critérios pra partir uma passada longa em módulos com frame-ponte:**
 
@@ -179,7 +179,7 @@ Planejar estados de entrada/saída e locks literais. A montagem é uma rota vál
 O clipe inicial tem que funcionar sozinho e terminar vivo. O segundo movimento reabre, traz algo
 novo e fecha de novo. Não estender uma revelação esgotada só pra preencher duração.
 
-## Áudio
+## áudio
 
 - Ancorar efeitos a ações, não a timestamps impossíveis de sincronizar.
 - Definir ambiente e hierarquia em relação à voz.
@@ -202,5 +202,5 @@ novo e fecha de novo. Não estender uma revelação esgotada só pra preencher d
 - [ ] Cada movimento de câmera escrito como resultado visível, não como jargão.
 - [ ] Ações não competem dentro do mesmo plano.
 - [ ] Estados de entrada/saída definidos nos módulos.
-- [ ] Áudio sustenta os trechos sem voz.
+- [ ] áudio sustenta os trechos sem voz.
 - [ ] Versão curta funciona sozinha.

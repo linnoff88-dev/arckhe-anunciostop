@@ -4,17 +4,17 @@
 similares) converte em outra cena mantendo sua cara, seus gestos e seu movimento de câmera.** Um
 só prompt.
 
-É uma via de identidade, não um truque de edição. E resolve o problema clássico dos lotes de
+é uma via de identidade, não um truque de edição. E resolve o problema clássico dos lotes de
 avatar: **a produção era boa e não aparecia ninguém conhecido.** Se o que vende o negócio é que
 ensina uma pessoa concreta, o anúncio não pode ser contado por um ator de banco.
 
 | | |
 |---|---|
-| **O que ganha** | É você de verdade: sua cara, seus gestos, seu jeito de se mover. E **desaparece o lip-sync gerado**, que é a falha nº 1: a boca é a sua, gravada |
+| **O que ganha** | é você de verdade: sua cara, seus gestos, seu jeito de se mover. E **desaparece o lip-sync gerado**, que é a falha nº 1: a boca é a sua, gravada |
 | **O que custa** | Quinze segundos do seu tempo e um celular |
 | **O que não pode** | Te mudar de lugar dentro do plano, nem te dar gestos que não fez, nem alongar o clipe. A coreografia é a que você gravou |
 
-⚠️ **Isso NÃO é `reel-edita-inema`.** Lá se pega um bruto e se **monta** num reel. Aqui se pega um
+⚠️ **Isso NãO é `reel-edita-arckhe`.** Lá se pega um bruto e se **monta** num reel. Aqui se pega um
 bruto e se **converte numa cena que não existe**. Se o trabalho é cortar, legendar e pôr B-roll, é
 a outra skill.
 
@@ -41,7 +41,7 @@ pensando no que vai sobreviver à transformação (cara, gestos, câmera) e no q
    parado falando, a transformação não tem no que se agarrar. Um gesto claro por trecho: apontar,
    virar, pegar algo, levantar.
 2. **Grave com o movimento de câmera que quer no resultado.** Se quer que a câmera orbite, orbite
-   você com o celular. A trajetória se conserva. É isso que a torna potente e o que quase ninguém
+   você com o celular. A trajetória se conserva. é isso que a torna potente e o que quase ninguém
    aproveita.
 3. **Fundo trocável e vazio.** Uma parede lisa, um corredor, um cômodo sem coisas. Quanto menos
    houver pra substituir, mais limpo sai. Um fundo com muitos objetos deixa fantasmas.
@@ -58,7 +58,7 @@ ambiente do bruto vai fora. Grave em silêncio se puder.
 
 ## A forma do prompt de transformação
 
-**A primeira linha não é uma cena: é uma instrução.** É o que distingue este prompt de todos os
+**A primeira linha não é uma cena: é uma instrução.** é o que distingue este prompt de todos os
 outros da skill.
 
 ```
@@ -93,9 +93,9 @@ everything he does are unchanged.
 | Bloco | A regra |
 |---|---|
 | **A instrução de abertura** | Sem ela o modelo re-anima o personagem em vez de conservá-lo, e perde-se a única coisa que dava valor à via |
-| **Replace the objects** | 🔴 **É onde tem que ser obsessivamente específico.** O detalhe pequeno é o que torna crível o objeto novo: não «uma lanterna», mas «uma lanterna com um led verde pequeno que segue aceso» |
+| **Replace the objects** | 🔴 **é onde tem que ser obsessivamente específico.** O detalhe pequeno é o que torna crível o objeto novo: não «uma lanterna», mas «uma lanterna com um led verde pequeno que segue aceso» |
 | **Keep untouched** | Escreve-se **explícito**, não se dá por suposto. Cara, pele, assimetrias, figurino, trajetória de câmera, gestos e *timing*. Os seis |
-| **Add** | O que não estava. É o mais barato de pedir e o que mais muda a cena |
+| **Add** | O que não estava. é o mais barato de pedir e o que mais muda a cena |
 
 ---
 
@@ -105,7 +105,7 @@ everything he does are unchanged.
 |---|---|
 | O apresentador dizendo algo a câmera num lugar impossível | 🟢 **Gravar e transformar.** Sua cara, sua voz, sua boca |
 | Um plano que precisa de oito cópias dele, ou escala impossível | Cara real com as três referências (via B). Aqui o bruto não pode te dar oito corpos |
-| Cinema sem ninguém no quadro, com narração | Voz off. → `identidade-e-voz.md` |
+| Carckhe sem ninguém no quadro, com narração | Voz off. → `identidade-e-voz.md` |
 | Um gesto ou coreografia que ele não vai gravar | Personagem inventado |
 | Talking-head puro, sem cena que valha a pena mudar | **Nenhuma: que ele grave e publique.** Transformar um talking-head em outro talking-head é gastar uma geração à toa |
 

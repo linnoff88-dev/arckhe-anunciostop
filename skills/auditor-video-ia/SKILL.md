@@ -100,7 +100,7 @@ Revisar o início, o fim, os cortes e frames intermediários. Conferir:
 - continuidade, física e câmera;
 - artefatos, morphing e fundos.
 
-### Áudio
+### áudio
 
 Ouvir e revisar:
 
@@ -170,7 +170,7 @@ Usar `assets/modelo-auditoria-video-ia.md`. Incluir:
 O veredito tem que ser operacional:
 
 ```markdown
-DECISÃO: EDITAR LOCALMENTE
+DECISãO: EDITAR LOCALMENTE
 Porque: a identidade, o roteiro e o ritmo funcionam; só falha o produto entre 00:11–00:13.
 Ação: substituir o produto nessa faixa e preservar câmera, atuação, luz e áudio.
 Não tocar: hook, cara, timing, voz e CTA.

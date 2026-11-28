@@ -132,7 +132,7 @@ entidades diferentes.
   Numa web, usar a menção que a interface insere ao anexar. Não dar nenhuma por certa.
 - ⚠️ **Alguns provedores limitam a 30 s combinados** entre todos os vídeos-ref. Um módulo de 30 s
   cabe justo; dois não.
-- 🔴 **O «extend» de alguns provedores NÃO continua o seu material**: clona o estilo de um vídeo
+- 🔴 **O «extend» de alguns provedores NãO continua o seu material**: clona o estilo de um vídeo
   alheio pra fazer um parecido («remake viral»). Não usar como ponte de continuidade. Nesses casos,
   frame-ponte → `assets.md`.
 - **Sem `ignore` explícito, um vídeo-ref arrasta enquadramentos, ritmo de corte e áudio** do clipe
@@ -194,7 +194,7 @@ Escolher conforme o brief:
 - produto: controle, precisão e materiais;
 - ficção: cobertura e atuação;
 - documentário: observação e continuidade;
-- cinema: escala e movimento motivado;
+- carckhe: escala e movimento motivado;
 - peça gráfica: composição e timing.
 
 Uma câmera estável é válida. Música é válida se faz parte do brief e a interface suporta.
@@ -210,7 +210,7 @@ Uma câmera estável é válida. Música é válida se faz parte do brief e a in
 - [ ] Trechos em off marcados `off-camera` + «nobody on screen moves their lips».
 - [ ] Identidade e produto travados.
 - [ ] Estilo escolhido, não herdado por padrão.
-- [ ] Áudio decidido.
+- [ ] áudio decidido.
 - [ ] Final vivo se haverá extensão, e recortável (a superfície pode devolver segundos a mais).
 - [ ] Prompt dentro da caixa real.
 - [ ] Idioma: português do Brasil declarado na última linha, negativo contra deriva de sotaque.

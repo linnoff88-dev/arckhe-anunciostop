@@ -17,13 +17,13 @@ cada uma faz **uma** coisa e deixa um documento escrito pra seguinte.
 dirigir o plano e auditar antes de publicar. Por isso o sistema continua valendo quando o modelo
 da moda mudar.
 
-- Guia de uso: `guia/index.html` (publicado em `https://inematds.github.io/anunciostop/guia/`)
+- Guia de uso: `guia/index.html` (publicado em `https://linnoff88-dev.github.io/anunciostop/guia/`)
 - Download das skills: [`anuncios-top-skills.zip`](anuncios-top-skills.zip)
 - Plano do curso: [`PLANO-CURSO.md`](PLANO-CURSO.md)
 
 ---
 
-## Índice
+## índice
 
 1. [Instalação](#1-instalação)
 2. [O que mais você precisa](#2-o-que-mais-você-precisa)
@@ -125,7 +125,7 @@ variantes vivas (a Biblioteca não publica gasto nem CTR), processamento mecâni
 Whisper, análise de frames com subagentes, contexto do funil (a landing), síntese.
 
 O relatório termina com um bloco obrigatório: o que é transplantável, o que com cuidado, e o que
-NÃO se copia. Copia-se a estrutura, nunca a mentira.
+NãO se copia. Copia-se a estrutura, nunca a mentira.
 
 Arquivos: `skills/espiona-ads/SKILL.md`, `references/prompt-subagente.md`, `scripts/extrai.js`,
 `scripts/processa.sh`.
@@ -139,7 +139,7 @@ O coração do sistema. Cinco passos, sem pular:
    que pensar ao terminar, que prova existe, o que não se pode dizer. Nada técnico ainda.
 3. **O menu de dez.** Dez conceitos com dez mecanismos diferentes, cada um com a cena em prosa,
    cold open, mini-roteiro com frases literais e tempo, onde vai a oferta, ritmo e risco. Padrão:
-   3 UGC, 3 mini-ficção, 2 demonstração, 2 cinema. Depois do menu, PARA e pergunta quais desenvolver.
+   3 UGC, 3 mini-ficção, 2 demonstração, 2 carckhe. Depois do menu, PARA e pergunta quais desenvolver.
 4. **O técnico, só dos escolhidos.** Duração, quem aparece (cinco vias de identidade), ritmo
    proposto, plataforma, idioma, e que material já existe.
 5. **Um Markdown por vídeo**, com quatro blocos fixos: imagens a criar antes, roteiro pra ler em
@@ -151,10 +151,10 @@ O que a skill sabe, nas referências:
 |---|---|
 | `entrevista.md` | Os dois blocos de perguntas e por que não se misturam |
 | `menu.md` | Como se constrói o menu de dez e as sete regras |
-| `modos.md` | Catálogo de 21 modos (UGC, depoimento, demonstração, entrevista de rua, objeto que fala, mascote, escala impossível, POV, absurdo, cinema puro, letreiro em cena…) e o que vigiar em cada um |
+| `modos.md` | Catálogo de 21 modos (UGC, depoimento, demonstração, entrevista de rua, objeto que fala, mascote, escala impossível, POV, absurdo, carckhe puro, letreiro em cena…) e o que vigiar em cada um |
 | `cold-open.md` | Os três primeiros segundos: doutrina, seis mecanismos, teste de sete perguntas, anti-padrões |
 | `ritmo.md` | Níveis de ritmo, orçamento de palavras por trilho, teto da interface, forma do ritmo, arquiteturas |
-| `estilos.md` | Quatro blocos de textura (UGC de celular, mini-ficção, cinema, estilizado); escolhe um e cola inteiro |
+| `estilos.md` | Quatro blocos de textura (UGC de celular, mini-ficção, carckhe, estilizado); escolhe um e cola inteiro |
 | `identidade-e-voz.md` | As cinco vias: personagem inventado, cara real com referências, foto + áudio, voz off, gravar e transformar |
 | `apresentador.md` | Ficha de apresentador em sete dimensões: a mesma cara em todos os anúncios |
 | `referencias-de-identidade.md` | As três imagens de referência de uma pessoa real e os prompts pra gerá-las |
@@ -171,7 +171,7 @@ Recebe o prompt (preflight) ou o MP4 gerado (postflight) e devolve uma única de
 faixa de tempo exata:
 
 ```
-DECISÃO: EDITAR LOCALMENTE
+DECISãO: EDITAR LOCALMENTE
 Porque: a identidade, o roteiro e o ritmo funcionam; só falha o produto entre 00:11–00:13.
 Ação: substituir o produto nessa faixa e preservar câmera, atuação, luz e áudio.
 Não tocar: hook, cara, timing, voz e CTA.
@@ -208,7 +208,7 @@ Scripts: `captions.py`, `jargon-fix.py`, `export-srt.py`, `master-audio.py`, `ov
 Configuração do overlay por variáveis: `CAPTION_FONT` (fonte) e `KEYWORD_COLOR` (cor de acento).
 
 Se o bruto foi **gravado com câmera** em vez de gerado, a montagem é outra skill
-(`reel-edita-inema`), não esta.
+(`reel-edita-arckhe`), não esta.
 
 ## 6. Provedores e adaptadores
 
@@ -217,7 +217,7 @@ O método é neutro; o prompt final muda conforme onde você cola. Três adaptad
 
 | Adaptador | Custo | Como se usa | O que faz |
 |---|---|---|---|
-| **Agnes por keyframes** (padrão) | zero | `AGNES_API_KEY` | Imagem (text2img e img2img) e vídeo por par de keyframes A→B, até 20 s por clipe em 720p. Só via D (voz off): a voz vem do inemavox ou gravada e se monta depois |
+| **Agnes por keyframes** (padrão) | zero | `AGNES_API_KEY` | Imagem (text2img e img2img) e vídeo por par de keyframes A→B, até 20 s por clipe em 720p. Só via D (voz off): a voz vem do arckhevox ou gravada e se monta depois |
 | **Seedance 2.5 multishot** | pago | pela web do provedor (TopView, Higgsfield, Magnific…) | Até 30 s com cortes dentro do prompt, referências de imagem, vídeo e áudio, diálogo com lip-sync |
 | **Dreamina one-take / Seedance 2.0 modular** | pago | pela web | Uma tomada contínua de 30 s, ou módulos de 15 s pra montar |
 
@@ -272,7 +272,7 @@ O plano completo está em [`PLANO-CURSO.md`](PLANO-CURSO.md). Resumo:
 | 6 | Publicar com cabeça e aprender com o quarto anúncio | registro com a próxima hipótese |
 
 Um único anúncio atravessa os módulos 1 a 6 (o projeto-fio). No fim, a pasta `anuncios/` do aluno
-é o portfólio do curso. Formato: INEMA `/formato-curso-v2`. Provedor das demonstrações: Agnes.
+é o portfólio do curso. Formato: ARCKHé AI `/formato-curso-v2`. Provedor das demonstrações: Agnes.
 
 ## 10. Avisos honestos
 
@@ -281,7 +281,7 @@ Um único anúncio atravessa os módulos 1 a 6 (o projeto-fio). No fim, a pasta 
 - **Vídeo com IA não ganha sempre.** Em venda direta a frio, gravação a câmera pode converter
   melhor que avatar. Onde a IA ganha de lavada é no que não dá pra filmar: cenários impossíveis,
   sátira, metáfora física, volume. Se alguém disser que avatar vende sozinho, peça o número.
-- **Cara ou voz de pessoa real só com permissão dela.** Nunca de terceiro. É o único limite das
+- **Cara ou voz de pessoa real só com permissão dela.** Nunca de terceiro. é o único limite das
   skills que não admite exceção.
 - **Não invente prova.** Nem depoimento, nem resultado, nem número. Sem prova, demonstração com o
   que existe.
@@ -289,16 +289,16 @@ Um único anúncio atravessa os módulos 1 a 6 (o projeto-fio). No fim, a pasta 
 ## 11. Origem e adaptação
 
 O método vem de um minicurso em espanhol sobre anúncios com vídeo IA. Esta versão foi traduzida
-e adaptada pro ecossistema INEMA:
+e adaptada pro ecossistema ARCKHé AI:
 
 - português do Brasil nos textos e nos prompts (com negativo contra deriva de sotaque);
 - Biblioteca de Anúncios com país padrão BR;
 - adaptador Agnes (custo zero) como provedor padrão, escrito a partir de medições reais da API;
 - chaves carregadas em runtime, nunca copiadas;
-- montagem de bruto gravado aponta pra `reel-edita-inema`;
+- montagem de bruto gravado aponta pra `reel-edita-arckhe`;
 - caminhos e fontes neutros (Linux, Mac, Windows);
 - script de checagem de prompt escrito (o original citava um que não vinha no pacote);
 - referências à fonte, anedotas datadas e números de conta alheia removidos; os valores que
   restaram são de referência, a validar com dados próprios.
 
-Projeto de pesquisa e educação do INEMA.
+Projeto de pesquisa e educação do ARCKHé AI.

@@ -68,12 +68,12 @@ Tipo de fonte, direção, dureza, temperatura, hora do dia aparente. A luz é o 
 imagem gerada, e também o que mais rápido a salva. Luz de janela ou flash direto de celular são as
 duas que melhor passam por reais.
 
-### 7 · Âncoras de consistência
+### 7 · âncoras de consistência
 As instruções que se repetem **idênticas** em cada geração pra sair a mesma pessoa: os traços
 distintivos, o tipo de pele com a textura real (poros, imperfeições), o registro de câmera, e as
 restrições do que não deve aparecer.
 
-Este bloco se copia e cola sem mexer entre anúncios. É literalmente o mecanismo de continuidade.
+Este bloco se copia e cola sem mexer entre anúncios. é literalmente o mecanismo de continuidade.
 
 ## A voz
 
@@ -83,7 +83,7 @@ Decide-se aqui, e muda o plano de produção:
 |---|---|
 | **Gravada pelo apresentador** | Você precisa de **sincronia labial** entre o áudio e o apresentador gerado. O modelo de vídeo tem que aceitar áudio de entrada, ou sincroniza-se na montagem. Mais crível e sem custo |
 | **Gerada** | O modelo pode produzir a fala diretamente. Especifique tom, idade, ritmo, sotaque e energia. Escalável, mas é a parte que mais soa a IA |
-| **Clonada (inemavox)** | Voz clonada do apresentador a partir de 10 s de referência limpa, montada em cima na via D. Custo zero e a voz é a dele |
+| **Clonada (arckhevox)** | Voz clonada do apresentador a partir de 10 s de referência limpa, montada em cima na via D. Custo zero e a voz é a dele |
 
 🔴 **Pergunta-se no bloco 2 da entrevista** (`entrevista.md`, pergunta 2 «quem aparece») e chega
 decidida ao compilar. O padrão é **voz gerada**, coerente com o padrão de 100 % IA. Que ele grave é
@@ -103,7 +103,7 @@ Criada: [data] · Usada em: [lista de anúncios]
 
 ## Traços físicos
 [rosto, cabelo, olhos, compleição]
-**Âncoras distintivas:** [2-3 traços que se repetem sempre]
+**âncoras distintivas:** [2-3 traços que se repetem sempre]
 
 ## Câmera
 [dispositivo, distância, altura, ângulo, lente]
@@ -117,7 +117,7 @@ Criada: [data] · Usada em: [lista de anúncios]
 ## Luz
 [fonte, direção, dureza, temperatura, hora]
 
-## Âncoras de consistência
+## âncoras de consistência
 [bloco literal que se repete em cada geração]
 
 ## Voz
@@ -139,4 +139,4 @@ Criada: [data] · Usada em: [lista de anúncios]
 - **Registre cada mudança com a data.** Quando um anúncio funcionar melhor que outro, você vai
   querer saber o que era diferente.
 - **Se o apresentador representa uma pessoa real** (o caso mais comum), não o use pra dizer coisas
-  que essa pessoa não diria nem afirmações que ela não sustentaria. É a cara dela.
+  que essa pessoa não diria nem afirmações que ela não sustentaria. é a cara dela.

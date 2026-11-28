@@ -17,7 +17,7 @@ each one does **one** thing and leaves a document for the next.
 directing the shot, and auditing before publishing. That's why the system remains useful when the
 latest model changes.
 
-- User guide: `guia/index.html` (published at `https://inematds.github.io/anunciostop/guia/en/`)
+- User guide: `guia/index.html` (published at `https://linnoff88-dev.github.io/anunciostop/guia/en/`)
 - Download the skills: [`anuncios-top-skills.zip`](anuncios-top-skills.zip)
 - Course plan: [`PLANO-CURSO.md`](PLANO-CURSO.md)
 
@@ -133,7 +133,7 @@ The heart of the system. Five steps, no skipping:
    should think when they finish watching, what proof exists, and what can't be said. Nothing technical yet.
 3. **The menu of ten.** Ten concepts with ten different mechanisms, each with a scene in prose,
    cold open, mini-script with exact lines and timing, where the offer goes, pacing, and risk. Default:
-   3 UGC, 3 mini-fiction, 2 demonstrations, 2 cinema. After the menu, STOP and ask which ones to develop.
+   3 UGC, 3 mini-fiction, 2 demonstrations, 2 carckhe. After the menu, STOP and ask which ones to develop.
 4. **The technical details, only for the chosen concepts.** Duration, who appears (five identity paths), proposed pacing, platform, language, and what materials already exist.
 5. **One Markdown file per video**, with four fixed sections: images to create beforehand, script to read aloud, what to upload and in what order, prompts to copy and paste.
 
@@ -143,10 +143,10 @@ What the skill knows, in its references:
 |---|---|
 | `entrevista.md` | The two question blocks and why they aren't combined |
 | `menu.md` | How to build the menu of ten and the seven rules |
-| `modos.md` | Catalog of 21 modes (UGC, testimonial, demonstration, street interview, talking object, mascot, impossible scale, POV, absurdity, pure cinema, on-screen lettering…) and what to watch for in each |
+| `modos.md` | Catalog of 21 modes (UGC, testimonial, demonstration, street interview, talking object, mascot, impossible scale, POV, absurdity, pure carckhe, on-screen lettering…) and what to watch for in each |
 | `cold-open.md` | The first three seconds: doctrine, six mechanisms, seven-question test, anti-patterns |
 | `ritmo.md` | Pacing levels, word budget per track, interface limit, pacing patterns, architectures |
-| `estilos.md` | Four texture blocks (phone-shot UGC, mini-fiction, cinema, stylized); choose one and paste it in full |
+| `estilos.md` | Four texture blocks (phone-shot UGC, mini-fiction, carckhe, stylized); choose one and paste it in full |
 | `identidade-e-voz.md` | The five paths: invented character, real person with references, photo + audio, voiceover, record and transform |
 | `apresentador.md` | Presenter sheet across seven dimensions: the same face in every ad |
 | `referencias-de-identidade.md` | The three reference images of a real person and prompts to generate them |
@@ -162,7 +162,7 @@ What the skill knows, in its references:
 It receives the prompt (preflight) or the generated MP4 (postflight) and returns a single decision with its reason and exact time range:
 
 ```
-DECISÃO: EDITAR LOCALMENTE
+DECISãO: EDITAR LOCALMENTE
 Porque: a identidade, o roteiro e o ritmo funcionam; só falha o produto entre 00:11–00:13.
 Ação: substituir o produto nessa faixa e preservar câmera, atuação, luz e áudio.
 Não tocar: hook, cara, timing, voz e CTA.
@@ -196,7 +196,7 @@ Scripts: `captions.py`, `jargon-fix.py`, `export-srt.py`, `master-audio.py`, `ov
 Overlay configuration via variables: `CAPTION_FONT` (font) and `KEYWORD_COLOR` (accent color).
 
 If the raw footage was **shot with a camera** instead of generated, editing is handled by another skill
-(`reel-edita-inema`), not this one.
+(`reel-edita-arckhe`), not this one.
 
 ## 6. Providers and adapters
 
@@ -205,7 +205,7 @@ The method is provider-neutral; the final prompt changes depending on where you 
 
 | Adapter | Cost | How to use it | What it does |
 |---|---|---|---|
-| **Agnes via keyframes** (default) | zero | `AGNES_API_KEY` | Images (text2img and img2img) and video from a pair of keyframes A→B, up to 20 s per clip at 720p. Voiceover only (path D): the voice comes from inemavox or is recorded, then added in the edit |
+| **Agnes via keyframes** (default) | zero | `AGNES_API_KEY` | Images (text2img and img2img) and video from a pair of keyframes A→B, up to 20 s per clip at 720p. Voiceover only (path D): the voice comes from arckhevox or is recorded, then added in the edit |
 | **Seedance 2.5 multishot** | paid | through the provider's website (TopView, Higgsfield, Magnific…) | Up to 30 s with cuts inside the prompt, image, video, and audio references, dialogue with lip sync |
 | **Dreamina one-take / Seedance 2.0 modular** | paid | through the web | One continuous 30 s shot, or 15 s modules to assemble |
 
@@ -260,7 +260,7 @@ The complete plan is in [`PLANO-CURSO.md`](PLANO-CURSO.md). Summary:
 | 6 | Publish thoughtfully and learn from the fourth ad | log with the next hypothesis |
 
 A single ad goes through Modules 1 to 6 (the through-line project). At the end, the student's `anuncios/` folder
-is the course portfolio. Format: INEMA `/formato-curso-v2`. Demo provider: Agnes.
+is the course portfolio. Format: ARCKHé AI `/formato-curso-v2`. Demo provider: Agnes.
 
 ## 10. Honest caveats
 
@@ -277,16 +277,16 @@ is the course portfolio. Format: INEMA `/formato-curso-v2`. Demo provider: Agnes
 ## 11. Origin and adaptation
 
 The method comes from a mini-course in Spanish about AI video ads. This version was translated
-and adapted for the INEMA ecosystem:
+and adapted for the ARCKHé AI ecosystem:
 
 - Brazilian Portuguese in the text and prompts (with a negative prompt against accent drift);
 - Ad Library with BR as the default country;
 - Agnes adapter (zero cost) as the default provider, built from real API measurements;
 - keys loaded at runtime, never copied;
-- editing of recorded raw footage points to `reel-edita-inema`;
+- editing of recorded raw footage points to `reel-edita-arckhe`;
 - neutral paths and fonts (Linux, Mac, Windows);
 - a prompt checker script was written (the original mentioned one that wasn't included in the package);
 - references to the source, dated anecdotes, and someone else's account numbers removed; the
   remaining values are reference values to validate with your own data.
 
-INEMA research and education project.
+ARCKHé AI research and education project.

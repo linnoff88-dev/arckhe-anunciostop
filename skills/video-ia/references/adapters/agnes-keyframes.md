@@ -18,11 +18,11 @@ O que a Agnes é e não é:
 
 | | |
 |---|---|
-| **É** | Gerador de **imagem** (`agnes-image-2.1-flash`, text2img e img2img) e de **vídeo por keyframes** (`agnes-video-v2.0`: dá-se o frame A e o frame B, ela interpola) |
+| **é** | Gerador de **imagem** (`agnes-image-2.1-flash`, text2img e img2img) e de **vídeo por keyframes** (`agnes-video-v2.0`: dá-se o frame A e o frame B, ela interpola) |
 | **Não é** | Text-to-video com diálogo. **Não gera voz, não faz lip-sync, não executa cortes dentro do clipe.** Não edita vídeo (sem via E) |
 
-Consequência direta: **na Agnes só existe a via D (voz off).** A voz vem do inemavox (TTS com voz
-clonada, engine `chatterbox`) ou gravada, e se monta em cima no `/anuncio-edita`. É a via mais
+Consequência direta: **na Agnes só existe a via D (voz off).** A voz vem do arckhevox (TTS com voz
+clonada, engine `chatterbox`) ou gravada, e se monta em cima no `/anuncio-edita`. é a via mais
 segura do catálogo, então o custo zero não é a única vantagem.
 
 ## A unidade de produção: o clipe por keyframes
@@ -57,12 +57,12 @@ antes. → `ritmo.md` §Modular
 ## Pipeline por peça
 
 ```
-1. Âncora de identidade (text2img)          → 1 imagem-mãe do personagem/produto
+1. âncora de identidade (text2img)          → 1 imagem-mãe do personagem/produto
 2. Derivadas por img2img (--ref âncora)      → folha, vistas, figurino (máx. 2 refs por imagem)
 3. Locação (text2img, com o bloco de textura literal)
 4. Keyframes: por clipe, A e B               → B se gera a partir de A (--ref A + âncora)
 5. Vídeo: POST /v1/videos, mode keyframes    → num_frames 8n+1, 24 fps, 1 clipe por vez, ≤5/min
-6. Voz: inemavox TTS (chatterbox, voz da ficha) ou gravação
+6. Voz: arckhevox TTS (chatterbox, voz da ficha) ou gravação
 7. /anuncio-edita: montar clipes + voz + legendas + master
 ```
 
@@ -94,7 +94,7 @@ PY
 
 ## Regras de prompt medidas (imagem)
 
-- **Prompt em INGLÊS, sempre.** Em português o filtro de conteúdo devolve HTTP 400 em pedido legítimo.
+- **Prompt em INGLêS, sempre.** Em português o filtro de conteúdo devolve HTTP 400 em pedido legítimo.
 - **`size` em pixels explícito** (`736x1312` pra 9:16) quando há referência: em img2img o `ratio`
   é ignorado e vira quadrado.
 - **No máximo 2 referências.** 3+ saturam; 5 = confete e prompt ignorado. Muitos personagens →
@@ -150,7 +150,7 @@ no text, no watermark, no extra limbs, no second face, no duplicate person, no f
 - [ ] Prompts de imagem em inglês, com no máximo 2 refs, sem pose frontal simétrica.
 - [ ] `num_frames` respeita 8n+1 e o teto do tier (481 em 720p); duração total = soma dos clipes.
 - [ ] Fila respeita 5 req/min (limite medido: 6); retry com backoff nos 503.
-- [ ] Voz sintetizada (inemavox) ou gravada, com o roteiro no bloco 2 do dossiê, no orçamento de
-      **voz off de cinema (126-160 ppm)**.
+- [ ] Voz sintetizada (arckhevox) ou gravada, com o roteiro no bloco 2 do dossiê, no orçamento de
+      **voz off de carckhe (126-160 ppm)**.
 - [ ] Arquivo real conferido com ffprobe (resolução e duração), não o JSON da resposta.
 - [ ] Último frame de cada clipe extraído do MP4 (não print) pra ser o A do seguinte.

@@ -1,6 +1,6 @@
 # overlay-fallback — pipeline de overlays sem libass
 
-**Quando usar:** quando o seu `ffmpeg` NÃO traz `libass`/`subtitles` nem `drawtext` (confira com
+**Quando usar:** quando o seu `ffmpeg` NãO traz `libass`/`subtitles` nem `drawtext` (confira com
 `ffmpeg -filters | grep -E 'subtitles|drawtext'`). Se traz, prefira o caminho direto do SKILL.md
 (`ass=`): mais rápido e sem Pillow. Este pipeline põe hook + legendas + chip CTA + endcard POR CIMA
 com ffmpeg, rápido e em 1080.
@@ -40,7 +40,7 @@ ffmpeg -y -i edicao/base1080.mp4 -i edicao/track.mov -i <audio-masterizado> \
 ## Regras de estilo
 - **Legendas = pastilha** (em `render_overlays.py`): fundo `rgba(10,7,18,.80)`, borda branca `.10`
   2px, radius 18, pad 16x32, bold ~48px, **karaokê** (não dita .38 / dita .85 / ativa 1.0),
-  **palavra-chave na cor da marca sempre**. NÃO legenda só de contorno. Centro ~y812 (nível do
+  **palavra-chave na cor da marca sempre**. NãO legenda só de contorno. Centro ~y812 (nível do
   microfone).
 - **Chip CTA sobre o peito (~y640), NUNCA sobre a cara.**
 - **Endcard** = pastilha de marca (não texto branco solto que pareça legenda).

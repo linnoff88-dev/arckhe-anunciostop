@@ -11,7 +11,7 @@ e passa o bastão pra seguinte por escrito.
 ```
 
 > Se o bruto for **gravado com câmera** em vez de gerado com IA, a montagem não é
-> `/anuncio-edita`: é `reel-edita-inema`, que é uma skill à parte do ecossistema INEMA.
+> `/anuncio-edita`: é `reel-edita-arckhe`, que é uma skill à parte do ecossistema ARCKHé AI.
 
 ---
 

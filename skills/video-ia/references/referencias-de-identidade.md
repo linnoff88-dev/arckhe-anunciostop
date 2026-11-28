@@ -40,7 +40,7 @@ Traços invariantes:
 ```
 
 ## 1 · O close · a partir da foto real
-O rosto inteiro, muito perto, sem retoque. É a que leva a textura da pele, e a que serve de rosto
+O rosto inteiro, muito perto, sem retoque. é a que leva a textura da pele, e a que serve de rosto
 pras outras duas.
 
 ```text
@@ -83,7 +83,7 @@ Wardrobe in every panel: [WARDROBE] (default: plain white crew-neck cotton t-shi
 Lighting: soft, even, shadow-free studio light, neutral white balance, same distance and scale in
 every panel of the same row. Skin: real pores, natural sheen, no smoothing, no beauty filter.
 Hair: individual strands visible. 85mm look, f/8, minimal distortion.
-No props, no text other than the panel labels, no watermark, no grading, no cinematic look.
+No props, no text other than the panel labels, no watermark, no grading, no carckhetic look.
 Aspect 4:3. Output at 2K.
 ```
 

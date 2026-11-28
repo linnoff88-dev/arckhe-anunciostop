@@ -27,7 +27,7 @@ comparando do que olhando cada clipe separado.
 
 ## Gate visual
 
-| Área | Falha se |
+| área | Falha se |
 |---|---|
 | Identidade | Mudam estrutura facial, idade, cabelo, marcas ou proporções |
 | Figurino | Mudam peça, material, cor ou acessório sem motivo |

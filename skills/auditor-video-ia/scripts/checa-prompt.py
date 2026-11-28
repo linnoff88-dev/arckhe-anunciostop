@@ -81,7 +81,7 @@ def main() -> int:
     # 5. agnes: sem lábios, uma ação
     if a.interface == "agnes":
         if re.search(r"\bDialogue\b|speaks|says ['\"]", txt):
-            bloq.append("Agnes não gera fala: remover Dialogue e passar a voz pro inemavox (via D)")
+            bloq.append("Agnes não gera fala: remover Dialogue e passar a voz pro arckhevox (via D)")
         if not re.search(r"no lip|nobody speaks|lips", txt, re.I):
             aviso.append("acrescentar 'no lip movement, nobody speaks' nos negativos")
         if len(re.findall(r"\bwhile\b|\band then\b|\bthen\b", txt, re.I)) > 2:
